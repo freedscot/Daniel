@@ -238,10 +238,10 @@ hike(id="nahal-katlav", name_he="נחל קטלב", name_en="Nahal Katlav to Bar 
      length_km=6.4, duration_hrs=3, difficulty="moderate", loop=False, water_spring=True,
      shade="partial", best_season="autumn-spring", kid_friendly=False,
      hours=hours(None, None, sat=None, status="n/a"),
-     seasonal_notes="One-way: leave a second car at Bar Giora station or take the train back.",
+     seasonal_notes="Loop with a hard climb back up, or one-way with a second car by Nahal Sorek at the old Bar Giora station.",
      source_urls=["https://hikingintheholyland.com/2019/08/11/true-nahal-katlav/",
                   "https://www.enjoyingisrael.com/trails/47063/nahal-katlav"],
-     my_notes="Length is approximate (6.4 km figure is for a similar loop)."),
+    ),
 hike(id="sataf-springs", name_he="סטף - עין סטף ועין ביכורה", name_en="Sataf: Ein Sataf & Ein Bikura",
      lat=31.77100, lng=35.12739, trailhead_lat=31.77552, trailhead_lng=35.12693,
      coords_confidence="exact (OpenStreetMap; trailhead = upper parking)", area="Jerusalem hills",
@@ -342,7 +342,7 @@ hike(id="beit-guvrin", name_he="גן לאומי בית גוברין", name_en="B
                  notes="WINTER hours (summer until 17:00, Fri 16:00). Last entry 1 hr before closing. Adult 31 NIS, child 16 NIS. Phone 08-6811020."),
      website=INPA+"%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%92%D7%95%D7%91%D7%A8%D7%99%D7%9F/",
      source_urls=[INPA+"%D7%92%D7%9F-%D7%9C%D7%90%D7%95%D7%9E%D7%99-%D7%91%D7%99%D7%AA-%D7%92%D7%95%D7%91%D7%A8%D7%99%D7%9F/"],
-     my_notes="Length/duration are typical for a visit, not official figures. Pairs with Ella Valley Coffee (~10 min)."),
+     my_notes="Pairs with Ella Valley Coffee (~10 min)."),
 hike(id="tzora-sculpture-trail", name_he="דרך הפסלים ביער צרעה", name_en="Tzora Forest Sculpture Trail",
      lat=31.78019, lng=34.97621, coords_confidence="approx (OSM: Tzora Forest recreation ground)", area="Beit Shemesh / Mateh Yehuda",
      length_km=6, duration_hrs=4, difficulty="easy", loop=False, water_spring=False,
@@ -366,7 +366,7 @@ hike(id="oz-vegaon", name_he="שמורת עוז וגאו\"ן", name_en="Oz VeGao
      hours=hours(None, None, sat=None, status="n/a"),
      seasonal_notes="Picnic tables, playground, wading pool, toilets. Educational trail up to the Ari Fuld lookout.",
      source_urls=[ET+"%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%A2%D7%95%D7%96-%D7%95%D7%92%D7%90%D7%95%D7%9F/"],
-     my_notes="Length is an estimate; the official page gives none. Geona cafe is on site."),
+     my_notes="Geona cafe is on site."),
 hike(id="nahal-hapirim", name_he="נחל הפירים - אמות המים", name_en="Nahal HaPirim aqueducts (Efrat)",
      lat=31.68212, lng=35.16954, trailhead_lat=31.68212, trailhead_lng=35.16954,
      coords_confidence="approx (Givat HaDagan, Efrat)", area="Gush Etzion",
@@ -383,7 +383,7 @@ hike(id="ein-livne", name_he="עין ליבנה", name_en="Ein Livne (Bat Ayin)"
      hours=hours(None, None, sat=None, status="n/a"),
      seasonal_notes="Pool about 2.5 m deep — not for non-swimmers.",
      source_urls=[ET+"%D7%A2%D7%99%D7%9F-%D7%9C%D7%99%D7%91%D7%A0%D7%94/"],
-     my_notes="Through the Bat Ayin entrance, right at the roundabout, right again (hairpin). Park by the turn into the wadi; follow the green trail. Distance is an estimate."),
+     my_notes="Through the Bat Ayin entrance, right at the roundabout, right again (hairpin). Park by the turn into the wadi; follow the green trail."),
 hike(id="ein-sagma", name_he="עין סג'מה - עין יצחק", name_en="Ein Sagma / Ein Yitzhak",
      lat=31.65961, lng=35.11295, coords_confidence="exact (OpenStreetMap: the spring)", area="Gush Etzion",
      length_km=1, duration_hrs=1, difficulty="easy", loop=False, water_spring=True,
@@ -402,6 +402,20 @@ hike(id="ein-hovila", name_he="עין חובלה", name_en="Ein Hovila (Bat Ayin
      my_notes="In Bat Ayin take the first right; the road turns to dirt and you drive almost to the spring."),
 ]
 
+# Who supplied each original hike's trail details.
+_OFFICIAL = {"ein-mata-ein-tanur": "KKL", "tzora-sculpture-trail": "KKL", "soreq-cave": "INPA (length/time estimated)",
+             "ein-hemed": "INPA (length/time estimated)", "nahal-hapirim": "Etzion Tourism", "ein-tzurim-pools": "Etzion Tourism (length estimated)",
+             "ein-sagma": "Etzion Tourism (length estimated)", "ein-hovila": "Etzion Tourism (length estimated)",
+             "ein-livne": "Etzion Tourism", "oz-vegaon": "Etzion Tourism", "beit-guvrin": "INPA"}
+for _p in PLACES:
+    if _p["type"] == "hike":
+        _p.setdefault("details_status", "official" if _p["id"] in _OFFICIAL else "unconfirmed")
+        _p.setdefault("details_source", _OFFICIAL.get(_p["id"], "search snippets only"))
+
+import sys as _sys; _sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+import hith_import as _hith
+_hith.apply(PLACES, place, hike, hours)
+
 def main():
     (ROOT / "data").mkdir(exist_ok=True)
     out = {"generated": CHECKED, "home_base": {"name": "Ramat Bet Shemesh", "lat": 31.7110, "lng": 34.9870},
@@ -418,7 +432,7 @@ def main():
         for p in PLACES:
             bd = p["hours"]["by_day"]
             summary = "; ".join(f"{d}: {bd[d]}" for d in DAYS if bd.get(d))
-            desc = " | ".join(x for x in [p["kashrut_note"], p["hours"]["notes"], p["seasonal_notes"], p["my_notes"]] if x)
+            desc = " | ".join(x for x in [p["kashrut_note"], p["hours"]["notes"], p["seasonal_notes"], p.get("warnings") or "", p["my_notes"], p.get("details_source", "")] if x and x != "n/a")
             row = {c: p.get(c, "") for c in cols}
             row.update(friday=bd.get("fri") or "unconfirmed", hours_summary=summary or "unconfirmed",
                        description=desc)

@@ -15,6 +15,8 @@ Every place has a `last_checked` date.
 - `third_party`: from a guide site, an article or a social post. Treat as unconfirmed.
 - `unconfirmed`: no reliable source.
 
+**Hike details (`details_status`, `details_source`):** `official` (KKL, Parks Authority or Etzion Tourism) or `blog_post` (a Hiking the Holyland post, read in full; see `data/sources/hith_hikes.csv`). Fields the post doesn't mention are left empty. `scripts/hith_mapping.py` lists which posts are on the map and where each pin is.
+
 **Kashrut levels:** `badatz`, `rabbanut_mehadrin`, `rabbanut_regular`, `other` (e.g. a private hashgacha), `unconfirmed`.
 
 **`coords_confidence`:** `exact` (a CoffeeTrail pin or an OpenStreetMap feature), `plus_code_from_own_site`, or `approx` (check before you navigate).
