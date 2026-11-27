@@ -112,7 +112,7 @@
         "status": "third_party",
         "notes": "Per social posts; older listings say 08:00-16:00. Call 054-608-3698."
       },
-      "seasonal_notes": "Some trucks are summer-only.",
+      "seasonal_notes": "Some trucks are summer-only. Nov 2026: ChatGPT research says a listing flags it as possibly permanently closed – call before going.",
       "instagram": null,
       "website": "https://www.facebook.com/MashsavFoodTrucks",
       "phone": "054-608-3698",
@@ -268,7 +268,7 @@
           "sat": "closed"
         },
         "status": "owner_stated",
-        "notes": "Owner notice: closed on weekdays due to long reserve duty."
+        "notes": "Owner notice: closed on weekdays due to long reserve duty. Nov 2026: a listing flags it as possibly permanently closed."
       },
       "seasonal_notes": "",
       "instagram": "https://www.instagram.com/bar.nes_agalatcafe",
@@ -759,11 +759,11 @@
       "lng": 34.94838,
       "coords_confidence": "exact (CoffeeTrail pin)",
       "area": "Modiin area",
-      "kashrut_body": "Regional rabbanut",
+      "kashrut_body": "Regional rabbanut (Gezer regional council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "owner_stated",
-      "kashrut_note": "Owner-verified CoffeeTrail listing.",
-      "dairy_meat": "unconfirmed",
+      "kashrut_note": "Owner-verified CoffeeTrail listing. ModiinApp: 'Kosher dairy, under the supervision of the rabbanut of Gezer regional council.'",
+      "dairy_meat": "dairy",
       "hours": {
         "by_day": {
           "sun": "closed",
@@ -1354,7 +1354,7 @@
       "kashrut_body": "not stated",
       "kashrut_level": "unconfirmed",
       "kashrut_status": "unconfirmed",
-      "kashrut_note": "Neither Etzion Tourism nor CoffeeTrail shows a hechsher.",
+      "kashrut_note": "Neither Etzion Tourism nor CoffeeTrail shows a hechsher. AI research found 'כשר למהדרין' (Easy) and 'מהדרין גוש עציון' (ChatGPT) – not checked.",
       "dairy_meat": "dairy (pastries, pizza, per description)",
       "hours": {
         "by_day": {
@@ -1394,7 +1394,7 @@
       "kashrut_body": "not stated",
       "kashrut_level": "unconfirmed",
       "kashrut_status": "unconfirmed",
-      "kashrut_note": "Etzion Tourism page has a kashrut tab but no text.",
+      "kashrut_note": "Etzion Tourism page has a kashrut tab but no text. Gemini says it is on the Gush Etzion religious council registry ('יאני בית קפה - עגלת קפה. סוג השגחה: חלבי'); that page wasn't reachable to check.",
       "dairy_meat": "unconfirmed",
       "hours": {
         "by_day": {
@@ -7956,6 +7956,279 @@
       ],
       "last_checked": "2026-11-27",
       "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "maafeh-habayit-kfar-etzion",
+      "type": "cafe",
+      "name_he": "מאפה הבית כפר עציון",
+      "name_en": "Ma'afeh HaBayit bakery café (Kfar Etzion)",
+      "lat": 31.65464,
+      "lng": 35.11739,
+      "coords_confidence": "approx (Hatzar HaKfar compound)",
+      "area": "Gush Etzion",
+      "kashrut_body": "בד\"ץ העדה החרדית (Badatz Edah HaChareidit)",
+      "kashrut_level": "badatz",
+      "kashrut_status": "owner_stated",
+      "kashrut_note": "Found by AI research (Gemini/ChatGPT). Own site: 'כשר חלבי, בהשגחת בד״ץ העדה החרדית'. Certificate not seen.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": "https://www.homemadebakery.co.il/",
+      "phone": "02-9935338",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%90%D7%A4%D7%94%20%D7%94%D7%91%D7%99%D7%AA%20%D7%9B%D7%A4%D7%A8%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://www.homemadebakery.co.il/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Bakery, patisserie and café with salads and sandwiches in Hatzar HaKfar.",
+      "visited": false
+    },
+    {
+      "id": "waffle-bar-efrat",
+      "type": "cafe",
+      "name_he": "וופל בר אפרת",
+      "name_en": "Waffle Bar (Zayit centre, Efrat)",
+      "lat": 31.6520309,
+      "lng": 35.1497039,
+      "coords_confidence": "exact (kasher.info pin from the registry listing)",
+      "area": "Gush Etzion (Efrat)",
+      "kashrut_body": "מועצה דתית אפרת",
+      "kashrut_level": "rabbanut_regular",
+      "kashrut_status": "official",
+      "kashrut_note": "Ministry registry (via kasher.info): supervised by the Efrat religious council; certificate details not published.",
+      "dairy_meat": "dairy (unconfirmed)",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%95%D7%95%D7%A4%D7%9C%20%D7%91%D7%A8%20%D7%90%D7%A4%D7%A8%D7%AA",
+      "source_urls": [
+        "https://kasher.info/b/363/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "agrocafe-srigim",
+      "type": "cafe",
+      "name_he": "אגרוקפה",
+      "name_en": "AgroCafe roastery café (Srigim / Li-On)",
+      "lat": 31.67703,
+      "lng": 34.9358,
+      "coords_confidence": "approx (Srigim village)",
+      "area": "Emek HaEla",
+      "kashrut_body": "רבנות מקומית • בד\"צ בית יוסף (local rabbanut; Badatz Beit Yosef)",
+      "kashrut_level": "rabbanut_regular",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Found by AI research (Gemini/ChatGPT). Quoted from an easy.co.il listing, which I couldn't open; AgroCafe's own site doesn't state kashrut. Check the certificate.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "08:30-17:00",
+          "mon": "08:30-17:00",
+          "tue": "08:30-17:00",
+          "wed": "08:30-17:00",
+          "thu": "08:30-17:00, 18:30-22:00",
+          "fri": "08:30-14:00",
+          "sat": null
+        },
+        "status": "third_party",
+        "notes": "Per the AI-quoted Easy listing (27 Aug 2026)."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": "https://agrocafe.co.il/",
+      "phone": "054-4941226",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%92%D7%A8%D7%95%D7%A7%D7%A4%D7%94%20%D7%A9%D7%A8%D7%99%D7%92%D7%99%D7%9D",
+      "source_urls": [
+        "https://agrocafe.co.il/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Coffee roastery with tours, terrace seating. Near Park Britannia, Tel Azeka and Hurvat Midras.",
+      "visited": false
+    },
+    {
+      "id": "cafe-bamishtala-nes-harim",
+      "type": "cafe",
+      "name_he": "קפה במשתלה נס הרים",
+      "name_en": "Cafe BaMishtala (nursery, Nes Harim)",
+      "lat": 31.74446,
+      "lng": 35.05796,
+      "coords_confidence": "approx (Nes Harim village)",
+      "area": "Jerusalem hills",
+      "kashrut_body": "מחלקת הדת של המועצה האזורית מטה יהודה, מהדרין",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Found by AI research (Gemini/ChatGPT). ChatGPT quoted this wording; an older coffeecarts.co.il listing ('בייקרי פטיסרי משתלת ירוק') also says Mehadrin. I couldn't open either source.",
+      "dairy_meat": "dairy (unconfirmed)",
+      "hours": {
+        "by_day": {
+          "sun": "closed",
+          "mon": "closed",
+          "tue": "closed",
+          "wed": "closed",
+          "thu": "closed",
+          "fri": "08:00-14:00",
+          "sat": "closed"
+        },
+        "status": "third_party",
+        "notes": "Fridays only, per the AI research."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%A9%D7%AA%D7%9C%D7%AA%20%D7%99%D7%A8%D7%95%D7%A7%20%D7%A0%D7%A1%20%D7%94%D7%A8%D7%99%D7%9D",
+      "source_urls": [
+        "https://www.coffeecarts.co.il/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Friday bakery café among nursery plants, ~2 km from Nahal Katlav.",
+      "visited": false
+    },
+    {
+      "id": "geppetto-bar-giora",
+      "type": "restaurant",
+      "name_he": "ג'פטו פיצה בר",
+      "name_en": "Geppetto Pizza Bar (Bar Giora)",
+      "lat": 31.72982,
+      "lng": 35.07265,
+      "coords_confidence": "approx (Bar Giora village; HaRimon 5)",
+      "area": "Jerusalem hills",
+      "kashrut_body": "not stated",
+      "kashrut_level": "unconfirmed",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Found by AI research (Gemini/ChatGPT). Gemini cites the Mateh Yehuda council site for 'מהדרין', without naming the body; that site blocks automated readers, so I couldn't check it.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "053-5202852",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%92%27%D7%A4%D7%98%D7%95%20%D7%A4%D7%99%D7%A6%D7%94%20%D7%91%D7%A8%20%D7%91%D7%A8%20%D7%92%D7%99%D7%95%D7%A8%D7%90",
+      "source_urls": [
+        "https://www.m-yehuda.org.il/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Sit-down dairy pizza; ~1 km from the Nahal Katlav trailhead.",
+      "visited": false
+    },
+    {
+      "id": "cafe-shai-sha-mevo-horon",
+      "type": "cart",
+      "name_he": "קפה שי-שה",
+      "name_en": "Cafe Shai-Sha (Mevo Horon)",
+      "lat": 31.8467,
+      "lng": 35.0306,
+      "coords_confidence": "approx (Mevo Horon)",
+      "area": "Modiin area",
+      "kashrut_body": "Mateh Binyamin (מועצה אזורית מטה בנימין), Mehadrin products",
+      "kashrut_level": "rabbanut_regular",
+      "kashrut_status": "third_party",
+      "kashrut_note": "ModiinApp: 'Under Kashrut supervision of Mate Binyamin, Mehadrin products.' Certificate not seen.",
+      "dairy_meat": "unconfirmed",
+      "hours": {
+        "by_day": {
+          "sun": "closed",
+          "mon": "closed",
+          "tue": "closed",
+          "wed": "closed",
+          "thu": "closed",
+          "fri": "open (hours not stated)",
+          "sat": "closed"
+        },
+        "status": "third_party",
+        "notes": "Fridays only."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%A9%D7%99%20%D7%A9%D7%94%20%D7%9E%D7%91%D7%95%D7%90%20%D7%97%D7%95%D7%A8%D7%95%D7%9F",
+      "source_urls": [
+        "https://modiinapp.com/en/category/620/food-trucks-coffee-carts"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "siftach-san-simon",
+      "type": "cart",
+      "name_he": "סיפתח סן סימון",
+      "name_en": "Siftach San Simon (Jerusalem)",
+      "lat": 31.76041,
+      "lng": 35.20621,
+      "coords_confidence": "approx (OSM: San Simon Park)",
+      "area": "Jerusalem",
+      "kashrut_body": "רבני צהר (Tzohar)",
+      "kashrut_level": "other",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Found by AI research (Gemini/ChatGPT). Gemini quotes 'בפיקוח רבני צהר' from CoffeeTrail/Easy; CoffeeTrail's own listing shows no kashrut. Check on site.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "08:00-18:00",
+          "mon": "08:00-18:00",
+          "tue": "08:00-18:00",
+          "wed": "08:00-18:00",
+          "thu": "08:00-18:00",
+          "fri": "08:00-14:00",
+          "sat": "closed"
+        },
+        "status": "third_party",
+        "notes": "Another listing: until 19:00, Fri until 14:30."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%99%D7%A4%D7%AA%D7%97%20%D7%A1%D7%9F%20%D7%A1%D7%99%D7%9E%D7%95%D7%9F",
+      "source_urls": [
+        "https://coffeetrail.co.il/coffeecart/jerusalem/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Lawn seating in San Simon Park.",
       "visited": false
     }
   ]
