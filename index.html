@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hike &amp; Coffee</title>
+  <meta name="description" content="Kosher coffee carts, food trucks and hikes near Ramat Bet Shemesh">
+  <meta name="theme-color" content="#2f5d46">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Hike &amp; Coffee">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><img src="icons/icon-192.png" alt="" width="28" height="28"><span data-t="appName">Hike &amp; Coffee</span></div>
+    <input id="search" type="search" autocomplete="off" data-tp="search" placeholder="Search">
+    <button id="langBtn" class="iconbtn" type="button" aria-label="עברית / English">עב</button>
+  </header>
+
+  <nav id="chips" class="chips" aria-label="Quick filters">
+    <button type="button" class="chip" data-quick="all" data-t="qAll">All</button>
+    <button type="button" class="chip" data-quick="food" data-t="qFood">☕ Coffee &amp; food</button>
+    <button type="button" class="chip" data-quick="hike" data-t="qHike">🥾 Hikes</button>
+    <button type="button" class="chip" data-quick="frimorning" data-t="qFri">Open Fri morning</button>
+    <button type="button" class="chip" id="nearBtn" data-t="qNear">📍 Near me</button>
+  </nav>
+
+  <main id="map" aria-label="Map"></main>
+
+  <section id="sheet" class="sheet peek" aria-label="Places">
+    <button id="sheetHandle" class="handle" type="button" aria-label="Expand list"><span></span></button>
+    <div class="sheet-head">
+      <strong id="count"></strong>
+      <div class="tabs" role="tablist">
+        <button type="button" role="tab" class="tab active" data-tab="list" data-t="tabList">List</button>
+        <button type="button" role="tab" class="tab" data-tab="filters" data-t="tabFilters">Filters</button>
+      </div>
+    </div>
+    <div id="list" class="panel" role="tabpanel"></div>
+    <div id="filters" class="panel hidden" role="tabpanel"></div>
+  </section>
+
+  <section id="detail" class="detail hidden" aria-live="polite"></section>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

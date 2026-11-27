@@ -1,6 +1,16 @@
 # Kosher Hike + Coffee Map (Israel)
 
-Phase 1: data. Phase 2 (app) and Phase 3 (hosting) come next.
+A phone-friendly map of kosher coffee carts, food trucks and hikes near Ramat Bet Shemesh. It's a static site with no server: open `index.html` through any web server, or host it on GitHub Pages.
+
+## The app
+- `index.html`, `app.js`, `styles.css`: the app. It reads `data/places.json`.
+- Map: Leaflet + OpenStreetMap (bundled in `vendor/leaflet`, no API key needed).
+- Drive times ("Near me" and the hike pairings) come from the free public OSRM router. If that's unavailable, the app shows straight-line distances labelled "approx.".
+- Tapping Google Maps opens the place in the Google Maps app (food spots are searched by name so you see reviews and photos). Waze opens navigation to the pin.
+- "I've been here" and personal notes are saved on the phone itself (browser storage), not in the data file.
+- `manifest.webmanifest`, `sw.js`, `icons/`: make it installable ("Add to Home screen") and usable offline. Map areas you've already viewed are cached.
+
+## Data
 
 - `data/places.json`: the master list that the app will read.
 - `data/places_mymaps.csv`: import into Google My Maps (Create map → Import → choose file → pick `lat`/`lng` for position and `name_en` for the title).
