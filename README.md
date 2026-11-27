@@ -11,7 +11,7 @@ A phone-friendly map of kosher coffee carts, food trucks and hikes near Ramat Be
 - `manifest.webmanifest`, `sw.js`, `icons/`: make it installable ("Add to Home screen") and usable offline. Map areas you've already viewed are cached.
 
 ## Adding a place from Instagram
-- In the app: **➕ Suggest a place** (bottom of the list or filters), or on Android **Share → Hike & Coffee** from Instagram. Either one opens a ready-made GitHub issue ("Add place: @handle"); tap Submit.
+- In the app: **➕ Suggest a place** (bottom of the list or filters), or on Android **Share → Coffee & Tiyul** from Instagram. Either one opens a ready-made GitHub issue ("Add place: @handle"); tap Submit.
 - Or just paste the link to Claude in any session on this repo.
 - Claude follows `.claude/skills/add-place/SKILL.md`: it matches the handle in `data/sources/coffeetrail_index.json` (rebuild with `python3 scripts/coffeetrail_index.py`), drafts an entry with `python3 scripts/add_place.py`, checks it, rebuilds and publishes. Added places live in `data/sources/added_places.json`.
 

@@ -1,11 +1,11 @@
-/* Hike & Coffee — kosher coffee/food + hikes map. Static app: reads data/places.json. */
+/* Coffee & Tiyul — kosher coffee/food + hikes map. Static app: reads data/places.json. */
 (() => {
   "use strict";
 
   // ---------- i18n ----------
   const T = {
     en: {
-      appName: "Hike & Coffee", search: "Search places", qAll: "All", qFood: "☕ Coffee & food", qHike: "🥾 Hikes",
+      appName: "Coffee & Tiyul", search: "Search places", qAll: "All", qFood: "☕ Coffee & food", qHike: "🥾 Hikes",
       qFri: "Open Fri morning", qNear: "📍 Near me", tabList: "List", tabFilters: "Filters",
       count: n => `${n} places`, none: "Nothing matches these filters.",
       fType: "Type", cart: "Coffee cart", cafe: "Café", food_truck: "Food truck", hike: "Hike",
@@ -452,10 +452,10 @@
     const repo = (window.APP_CONFIG || {}).requestRepo || "freedscot/Daniel";
     const handle = (link.match(/instagram\.com\/([A-Za-z0-9_.]+)/) || [])[1];
     const title = `Add place: ${handle ? "@" + handle : link}`;
-    const body = `Link: ${link}\n\nNotes: ${$("#sgNotes").value.trim() || "-"}\n\nRequested from the Hike & Coffee app on ${new Date().toISOString().slice(0, 10)}.\nClaude: follow .claude/skills/add-place/SKILL.md.`;
+    const body = `Link: ${link}\n\nNotes: ${$("#sgNotes").value.trim() || "-"}\n\nRequested from the Coffee & Tiyul app on ${new Date().toISOString().slice(0, 10)}.\nClaude: follow .claude/skills/add-place/SKILL.md.`;
     window.open(`https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`, "_blank", "noopener");
   }
-  function handleShare() { // Android "Share → Hike & Coffee" lands here with share_* params
+  function handleShare() { // Android "Share → Coffee & Tiyul" lands here with share_* params
     const q = new URLSearchParams(location.search);
     const raw = [q.get("share_url"), q.get("share_text"), q.get("share_title")].filter(Boolean).join(" ");
     if (!raw) return;

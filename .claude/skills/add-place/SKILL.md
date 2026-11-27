@@ -1,6 +1,6 @@
 ---
 name: add-place
-description: Add a kosher coffee cart / café / food truck (or a hike) to the Hike & Coffee map from an Instagram link, or process open "Add place:" GitHub issues created by the app's "Suggest a place" button. Use whenever the user pastes an Instagram/Facebook/website link for a place, or asks to process place requests.
+description: Add a kosher coffee cart / café / food truck (or a hike) to the Coffee & Tiyul map from an Instagram link, or process open "Add place:" GitHub issues created by the app's "Suggest a place" button. Use whenever the user pastes an Instagram/Facebook/website link for a place, or asks to process place requests.
 ---
 
 # Add a place from a link
