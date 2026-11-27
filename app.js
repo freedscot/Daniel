@@ -236,7 +236,7 @@
       map.on("baselayerchange", e => store.set("basemap", e.name));
     };
     const sc = document.createElement("script");
-    sc.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&loading=async&callback=__gmReady&language=${S.lang}&region=IL`;
+    sc.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&loading=async&callback=__gmReady&language=en&region=IL`;
     sc.async = true; sc.onerror = fail;
     document.head.appendChild(sc);
   }
