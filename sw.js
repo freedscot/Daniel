@@ -1,7 +1,7 @@
 // Offline support: app shell cache-first, place data network-first, map tiles cached as you browse.
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "vendor/leaflet/leaflet.js",
-  "vendor/leaflet/leaflet.css", "icons/icon-192.png", "icons/icon-512.png"];
+  "vendor/leaflet/leaflet.css", "vendor/googlemutant/Leaflet.GoogleMutant.js", "config.js", "icons/icon-192.png", "icons/icon-512.png"];
 const TILE_LIMIT = 600;
 
 self.addEventListener("install", e => e.waitUntil(caches.open("shell-" + VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())));

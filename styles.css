@@ -175,3 +175,5 @@ textarea { width: 100%; min-height: 70px; border-radius: 10px; border: 1px solid
   .detail { inset-inline-start: 0; inset-inline-end: auto; width: 400px; top: 104px; border-inline-end: 1px solid var(--line); }
 }
 [dir="rtl"] .leaflet-control-attribution { direction: ltr; }
+.leaflet-top { top: 48px; }
+@media (min-width: 900px) { .leaflet-top { top: 0; } }

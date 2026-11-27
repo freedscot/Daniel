@@ -206,10 +206,39 @@
   function initMap() {
     map = L.map("map", { zoomControl: false }).setView([31.73, 35.04], 10);
     L.control.zoom({ position: "bottomright" }).addTo(map);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    }).addTo(map);
+    });
     layer = L.layerGroup().addTo(map);
+    loadBaseMaps(osm);
+  }
+
+  // Google Maps as the base map when a key is configured; OpenStreetMap otherwise or if Google fails.
+  function loadBaseMaps(osm) {
+    const key = (window.APP_CONFIG || {}).googleMapsKey;
+    const useOsm = () => { if (!map.hasLayer(osm)) osm.addTo(map); };
+    if (!key || !L.gridLayer.googleMutant || !navigator.onLine) return useOsm();
+    let settled = false;
+    const fail = () => { if (settled) return; settled = true; useOsm(); };
+    const timer = setTimeout(fail, 7000);
+    window.gm_authFailure = () => { // bad/blocked key: drop Google layers, keep the app working
+      map.eachLayer(l => { if (l instanceof L.GridLayer.GoogleMutant) map.removeLayer(l); });
+      settled = false; fail();
+    };
+    window.__gmReady = () => {
+      if (settled) return; settled = true; clearTimeout(timer);
+      const road = L.gridLayer.googleMutant({ type: "roadmap", maxZoom: 20 });
+      const terrain = L.gridLayer.googleMutant({ type: "terrain", maxZoom: 20 });
+      const bases = { "Google": road, "Google terrain": terrain, "OpenStreetMap": osm };
+      const saved = store.get("basemap", "Google");
+      (bases[saved] || road).addTo(map);
+      L.control.layers(bases, null, { position: "topright" }).addTo(map);
+      map.on("baselayerchange", e => store.set("basemap", e.name));
+    };
+    const sc = document.createElement("script");
+    sc.src = `https://maps.googleapis.com/maps/api/js?key=${encodeURIComponent(key)}&loading=async&callback=__gmReady&language=${S.lang}&region=IL`;
+    sc.async = true; sc.onerror = fail;
+    document.head.appendChild(sc);
   }
   function pinIcon(p, sel) {
     const cls = `pin ${isFood(p) ? "food" : "hike"}${isFood(p) && !kosherOk(p) ? " unconf" : ""}${sel ? " sel" : ""}`;
