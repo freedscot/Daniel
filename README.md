@@ -28,6 +28,7 @@ Every place has a `last_checked` date.
 - `owner_stated`: the business says it, on its own website or in an owner-verified CoffeeTrail listing. Nobody has seen the certificate in person yet.
 - `official`: from the Nature & Parks Authority, KKL or a regional tourism authority.
 - `third_party`: from a guide site, an article or a social post. Treat as unconfirmed.
+- `user_reported`: from your own visit or knowledge (shown in the app as "Your own report").
 - `unconfirmed`: no reliable source.
 
 **Hike details (`details_status`, `details_source`):** `official` (KKL, Parks Authority or Etzion Tourism) or `blog_post` (a Hiking the Holyland post, read in full; see `data/sources/hith_hikes.csv`). Fields the post doesn't mention are left empty. `scripts/hith_mapping.py` lists which posts are on the map and where each pin is.

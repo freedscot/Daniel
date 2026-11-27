@@ -18,7 +18,7 @@
   "kashrut_body": "הרב מחפוד (Badatz Yoreh Deah – Rabbi Machpud)",
   "kashrut_level": "badatz",
   "kashrut_status": "owner_stated",
-  "kashrut_note": "Own site: 'כשר חלבי בהשגחת הרב מחפוד'. Certificate not seen.",
+  "kashrut_note": "Own site: 'כשר חלבי בהשגחת הרב מחפוד'. Also on the official Beit Shemesh religious council list. Certificate not seen.",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -36,7 +36,8 @@
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%A8%D7%99%D7%9E%D7%95%D7%9F%20%D7%91%D7%99%D7%92%20%D7%A4%D7%90%D7%A9%D7%9F%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
   "source_urls": [
    "https://www.caferimon.co.il/BeitShemesh",
-   "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
+   "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/",
+   "https://www.rabanutbs.co.il/53/"
   ]
  },
  {
@@ -55,10 +56,10 @@
   "lng": 34.98991,
   "coords_confidence": "approx (OSM: Big Fashion mall; GoKosher gives Yigal Alon 1)",
   "area": "Beit Shemesh",
-  "kashrut_body": "רבנות בית שמש (Rabbanut Beit Shemesh)",
-  "kashrut_level": "rabbanut_mehadrin",
-  "kashrut_status": "third_party",
-  "kashrut_note": "GoKosher's Beit Shemesh mehadrin list (updated 10 May 2026) gives 'רבש\"מ' (Rabbanut Beit Shemesh). Certificate not seen.",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גרג בית קפה', Yigal Alon 1. GoKosher lists it as Rabbanut Beit Shemesh Mehadrin.",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -75,6 +76,7 @@
   },
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%92%D7%A8%D7%92%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
   "source_urls": [
+   "https://www.rabanutbs.co.il/53/",
    "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
   ]
  },
@@ -94,10 +96,10 @@
   "lng": 34.98991,
   "coords_confidence": "approx (OSM: Big Fashion mall)",
   "area": "Beit Shemesh",
-  "kashrut_body": "רבנות בית שמש (Rabbanut Beit Shemesh)",
-  "kashrut_level": "rabbanut_mehadrin",
-  "kashrut_status": "third_party",
-  "kashrut_note": "GoKosher's Beit Shemesh mehadrin list (updated 10 May 2026) gives 'רבש\"מ' (Rabbanut Beit Shemesh). Certificate not seen.",
+  "kashrut_body": "חתם סופר פתח תקווה + רבנות (possibly Mehadrin)",
+  "kashrut_level": "other",
+  "kashrut_status": "user_reported",
+  "kashrut_note": "Your own report (27 Nov 2026): Chatam Sofer Petach Tikva and the Rabbanut, maybe Mehadrin. GoKosher listed Rabbanut Beit Shemesh. Not on the council's list (only Aroma's roastery is).",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -133,10 +135,10 @@
   "lng": 34.99525,
   "coords_confidence": "approx (OSM: Yitzhak Rabin St.)",
   "area": "Beit Shemesh",
-  "kashrut_body": "רבנות בית שמש per GoKosher; another directory says Badatz Beit Yosef",
-  "kashrut_level": "unconfirmed",
-  "kashrut_status": "third_party",
-  "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רבש\"מ'; GoKosher.com listing says Badatz Beit Yosef. Check the certificate.",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס בר', dairy + parve. (A GoKosher.com listing says Badatz Beit Yosef.)",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -153,6 +155,7 @@
   },
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%95%D7%A4%D7%99%D7%A7%D7%A1%20%D7%91%D7%A8%20%D7%99%D7%A6%D7%97%D7%A7%20%D7%A8%D7%91%D7%99%D7%9F%202%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
   "source_urls": [
+   "https://www.rabanutbs.co.il/53/",
    "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/",
    "https://www.gokosher.com/en/f92927"
   ]
@@ -173,10 +176,10 @@
   "lng": 34.99677,
   "coords_confidence": "approx (OSM: Nahal Dolev St., RBS A)",
   "area": "Ramat Bet Shemesh",
-  "kashrut_body": "Badatz Rubin per GoKosher; another directory says Beit Shemesh religious council",
-  "kashrut_level": "unconfirmed",
-  "kashrut_status": "third_party",
-  "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רובין' (Badatz Rubin); israel.com lists the Beit Shemesh religious council. Check the certificate.",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'הולי בייגל', dairy, Nahal Dolev 19. GoKosher (May 2026) lists Badatz Rubin – check the certificate on site.",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -193,6 +196,7 @@
   },
   "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%95%D7%9C%D7%99%20%D7%91%D7%99%D7%99%D7%92%D7%9C%20%D7%A0%D7%97%D7%9C%20%D7%93%D7%95%D7%9C%D7%91%2019%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
   "source_urls": [
+   "https://www.rabanutbs.co.il/53/",
    "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/",
    "https://www.israel.com/businesses/beit-shemesh/cafes/holy-bagel-rbs"
   ]
@@ -213,10 +217,10 @@
   "lng": 34.98575,
   "coords_confidence": "approx (OSM: Shaarei HaIr mall bus stop)",
   "area": "Beit Shemesh",
-  "kashrut_body": "רבנות בית שמש per GoKosher; another guide says Beit Din Beit Yosef",
-  "kashrut_level": "unconfirmed",
-  "kashrut_status": "third_party",
-  "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רבש\"מ'; another guide lists Beit Din Beit Yosef. Check the certificate.",
+  "kashrut_body": "בד\"ץ רובין (Badatz Rubin)",
+  "kashrut_level": "badatz",
+  "kashrut_status": "user_reported",
+  "kashrut_note": "Your own report (27 Nov 2026): Badatz Rubin. Not on the Beit Shemesh council list. Earlier directories said Rabbanut Beit Shemesh / Beit Yosef.",
   "dairy_meat": "dairy",
   "hours": {
    "by_day": {
@@ -470,5 +474,1031 @@
   "source_urls": [
    "https://etziontour.org.il/item/%D7%A9%D7%9C%D7%95%D7%9D-%D7%A4%D7%9C%D7%90%D7%A4%D7%9C/"
   ]
+ },
+ {
+  "id": "cofix-rbs-a",
+  "type": "cafe",
+  "name_he": "קופיקס רמת בית שמש א'",
+  "name_en": "Cofix (Nahal Nitzanim, RBS A)",
+  "lat": 31.715,
+  "lng": 34.9965,
+  "coords_confidence": "approx (RBS A – street not pinned)",
+  "area": "Beit Shemesh",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס רמת בית שמש א'', dairy + parve, Nahal Nitzanim.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%95%D7%A4%D7%99%D7%A7%D7%A1%20%D7%A8%D7%9E%D7%AA%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9%20%D7%90%27%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+  "source_urls": [
+   "https://www.rabanutbs.co.il/53/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "wax-cafe-naimi",
+  "type": "cafe",
+  "name_he": "וקס קפה",
+  "name_en": "Wax Cafe (Naimi mall, Beit Shemesh)",
+  "lat": 31.748,
+  "lng": 34.989,
+  "coords_confidence": "approx (Beit Shemesh – mall not pinned; check the map)",
+  "area": "Beit Shemesh",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'וקס קפה', dairy + parve, Naimi mall.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%95%D7%A7%D7%A1%20%D7%A7%D7%A4%D7%94%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+  "source_urls": [
+   "https://www.rabanutbs.co.il/53/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "golda-big-fashion",
+  "type": "cafe",
+  "name_he": "גלידה גולדה ביג פאשן",
+  "name_en": "Golda ice cream (Big Fashion)",
+  "lat": 31.75634,
+  "lng": 34.98991,
+  "coords_confidence": "approx (OSM: Big Fashion mall)",
+  "area": "Beit Shemesh",
+  "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גלידה גולדה', dairy + parve, Big Fashion.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%92%D7%9C%D7%99%D7%93%D7%94%20%D7%92%D7%95%D7%9C%D7%93%D7%94%20%D7%91%D7%99%D7%92%20%D7%A4%D7%90%D7%A9%D7%9F%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+  "source_urls": [
+   "https://www.rabanutbs.co.il/53/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "bagel-cafe-efrat",
+  "type": "cafe",
+  "name_he": "בייגל קפה אפרת",
+  "name_en": "Bagel Cafe (Te'ena centre, Efrat)",
+  "lat": 31.6521447,
+  "lng": 35.1501901,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Gush Etzion (Efrat)",
+  "kashrut_body": "מועצה דתית אפרת",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry registry (via kasher.info): listed as supervised by this council; certificate details not published.",
+  "dairy_meat": "unconfirmed",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%99%D7%92%D7%9C%20%D7%A7%D7%A4%D7%94%20%D7%90%D7%A4%D7%A8%D7%AA%20Gush%20Etzion%20%28Efrat%29",
+  "source_urls": [
+   "https://kasher.info/b/353/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "scoop-cafe-efrat",
+  "type": "cafe",
+  "name_he": "סקופ קפה",
+  "name_en": "Scoop Cafe (Dekel centre, Efrat)",
+  "lat": 31.6639245,
+  "lng": 35.1564901,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Gush Etzion (Efrat)",
+  "kashrut_body": "מועצה דתית אפרת",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry registry (via kasher.info): listed as supervised by this council; certificate details not published.",
+  "dairy_meat": "unconfirmed",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A7%D7%95%D7%A4%20%D7%A7%D7%A4%D7%94%20Gush%20Etzion%20%28Efrat%29",
+  "source_urls": [
+   "https://kasher.info/b/382/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "katzefet-efrat",
+  "type": "cafe",
+  "name_he": "קצפת אפרת",
+  "name_en": "Katzefet ice cream (Zayit centre, Efrat)",
+  "lat": 31.6687902,
+  "lng": 35.1636961,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Gush Etzion (Efrat)",
+  "kashrut_body": "מועצה דתית אפרת",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry registry (via kasher.info): listed as supervised by this council; certificate details not published, Mehadrin. kasher.info's list marks it Mehadrin; separately tagged 'Chug Chatam Sofer Bnei Brak' (not part of the certificate).",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A6%D7%A4%D7%AA%20%D7%90%D7%A4%D7%A8%D7%AA%20Gush%20Etzion%20%28Efrat%29",
+  "source_urls": [
+   "https://kasher.info/b/392/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "b-fresh-harel-mall",
+  "type": "cafe",
+  "name_he": "בי פרש קניון הראל",
+  "name_en": "B Fresh (Harel mall, Mevaseret)",
+  "lat": 31.7998049,
+  "lng": 35.1489725,
+  "coords_confidence": "approx (Harel mall)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%20%D7%A4%D7%A8%D7%A9%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%94%D7%A8%D7%90%D7%9C%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5467/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "luciana-mevaseret",
+  "type": "cafe",
+  "name_he": "לוצ'נה מבשרת",
+  "name_en": "Luciana (Country & Park, Mevaseret)",
+  "lat": 31.805765,
+  "lng": 35.1526535,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin. Separately tagged Badatz Beit Yosef (not part of the certificate).",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%9C%D7%95%D7%A6%27%D7%A0%D7%94%20%D7%9E%D7%91%D7%A9%D7%A8%D7%AA%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5492/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "teller-bakery-mevaseret",
+  "type": "cafe",
+  "name_he": "מאפיית טלר מבשרת",
+  "name_en": "Teller Bakery café (Rami Levy mall, Mevaseret)",
+  "lat": 31.7964782,
+  "lng": 35.1465644,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%90%D7%A4%D7%99%D7%99%D7%AA%20%D7%98%D7%9C%D7%A8%20%D7%9E%D7%91%D7%A9%D7%A8%D7%AA%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5493/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "senses-bar-mevaseret",
+  "type": "cafe",
+  "name_he": "סנסס בר",
+  "name_en": "Senses Bar (HaRishonim, Mevaseret)",
+  "lat": 31.7931122,
+  "lng": 35.1427554,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy + parve",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A1%D7%A0%D7%A1%D7%A1%20%D7%91%D7%A8%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5514/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "roladin-harel-mall",
+  "type": "cafe",
+  "name_he": "רולדין קניון הראל",
+  "name_en": "Roladin (Harel mall, Mevaseret)",
+  "lat": 31.7998049,
+  "lng": 35.1489725,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%9C%D7%93%D7%99%D7%9F%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%94%D7%A8%D7%90%D7%9C%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5522/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "roladin-rami-levy-mevaseret",
+  "type": "cafe",
+  "name_he": "רולדין קניון רמי לוי מבשרת",
+  "name_en": "Roladin (Rami Levy mall, Mevaseret)",
+  "lat": 31.7964782,
+  "lng": 35.1465644,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Mevaseret Zion",
+  "kashrut_body": "מועצה דתית מבשרת ציון",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A8%D7%95%D7%9C%D7%93%D7%99%D7%9F%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%A8%D7%9E%D7%99%20%D7%9C%D7%95%D7%99%20%D7%9E%D7%91%D7%A9%D7%A8%D7%AA%20Mevaseret%20Zion",
+  "source_urls": [
+   "https://kasher.info/b/5523/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "bar-bresco-modiin",
+  "type": "cafe",
+  "name_he": "בר ברסקו",
+  "name_en": "Bar Bresco (Maccabim centre, Modiin)",
+  "lat": 31.8884913,
+  "lng": 35.0298492,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%A8%20%D7%91%D7%A8%D7%A1%D7%A7%D7%95%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11094/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "cafe-paris-modiin",
+  "type": "cafe",
+  "name_he": "קפה פריז",
+  "name_en": "Cafe Paris (Renanim centre, Modiin)",
+  "lat": 31.8853449,
+  "lng": 35.0369233,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%A4%D7%A8%D7%99%D7%96%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11096/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "aroma-azrieli-modiin",
+  "type": "cafe",
+  "name_he": "ארומה עזריאלי מודיעין",
+  "name_en": "Aroma (Azrieli mall, Modiin)",
+  "lat": 31.8998602,
+  "lng": 35.0082658,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%95%D7%9E%D7%94%20%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99%20%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11182/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "biga-modiin",
+  "type": "cafe",
+  "name_he": "ביגה",
+  "name_en": "Biga (Azrieli mall, Modiin)",
+  "lat": 31.8998602,
+  "lng": 35.0082658,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin. Separately tagged Badatz Beit Yosef (not part of the certificate).",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%92%D7%94%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11188/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "bagel-cafe-azrieli-modiin",
+  "type": "cafe",
+  "name_he": "בייגל קפה עזריאלי מודיעין",
+  "name_en": "Bagel Cafe (Azrieli mall, Modiin)",
+  "lat": 31.8998602,
+  "lng": 35.0082658,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%99%D7%99%D7%92%D7%9C%20%D7%A7%D7%A4%D7%94%20%D7%A2%D7%96%D7%A8%D7%99%D7%90%D7%9C%D7%99%20%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11189/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "jacobs-modiin",
+  "type": "cafe",
+  "name_he": "ג'יקובס מודיעין",
+  "name_en": "Jacob's (Arar 13, Modiin)",
+  "lat": 31.9008638,
+  "lng": 35.0075345,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "both (dairy, meat, parve)",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%92%27%D7%99%D7%A7%D7%95%D7%91%D7%A1%20%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11197/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "deja-vu-modiin",
+  "type": "cafe",
+  "name_he": "דזה וו",
+  "name_en": "Deja Vu (Dam HaMaccabim, Modiin)",
+  "lat": 31.904118,
+  "lng": 35.006918,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%93%D7%96%D7%94%20%D7%95%D7%95%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11199/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "mocha-modiin",
+  "type": "cafe",
+  "name_he": "מוצ'ה מודיעין",
+  "name_en": "Mocha (HaRakevet 13, Modiin)",
+  "lat": 31.9008997,
+  "lng": 35.0064881,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin. Separately tagged Badatz Beit Yosef (not part of the certificate).",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%9E%D7%95%D7%A6%27%D7%94%20%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11236/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "cafe-nof-modiin",
+  "type": "cafe",
+  "name_he": "קפה נוף",
+  "name_en": "Cafe Nof (Nofim, Modiin – by the forest)",
+  "lat": 31.8975728,
+  "lng": 34.9875206,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%A0%D7%95%D7%A3%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11280/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "english-cake-modiin",
+  "type": "cafe",
+  "name_he": "אינגליש קייק מודיעין",
+  "name_en": "English Cake (Ginot Dotan, Modiin)",
+  "lat": 31.8999208,
+  "lng": 35.0137882,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%99%D7%A0%D7%92%D7%9C%D7%99%D7%A9%20%D7%A7%D7%99%D7%99%D7%A7%20%D7%9E%D7%95%D7%93%D7%99%D7%A2%D7%99%D7%9F%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11177/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "ana-bakery-modiin",
+  "type": "cafe",
+  "name_he": "אנה בייקרי",
+  "name_en": "Ana Bakery (Lev HaEmek, Modiin)",
+  "lat": 31.9138748,
+  "lng": 35.0060916,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A0%D7%94%20%D7%91%D7%99%D7%99%D7%A7%D7%A8%D7%99%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11180/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "bleecker-bakery-modiin",
+  "type": "cafe",
+  "name_he": "בליקר בייקרי",
+  "name_en": "Bleecker Bakery (Azrieli mall, Modiin)",
+  "lat": 31.8998602,
+  "lng": 35.0082658,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin. Separately tagged Badatz Beit Yosef (not part of the certificate).",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%91%D7%9C%D7%99%D7%A7%D7%A8%20%D7%91%D7%99%D7%99%D7%A7%D7%A8%D7%99%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11192/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "halechem-shel-tomer-modiin",
+  "type": "cafe",
+  "name_he": "הלחם של תומר",
+  "name_en": "HaLechem shel Tomer (Modiin Center)",
+  "lat": 31.9058171,
+  "lng": 35.016995,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_regular",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026. Not marked Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%9C%D7%97%D7%9D%20%D7%A9%D7%9C%20%D7%AA%D7%95%D7%9E%D7%A8%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11209/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "perlin-cake-modiin",
+  "type": "cafe",
+  "name_he": "פרלין קייק אנד קו",
+  "name_en": "Perlin Cake & Co (Dam HaMaccabim, Modiin)",
+  "lat": 31.9061025,
+  "lng": 35.005832,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A8%D7%9C%D7%99%D7%9F%20%D7%A7%D7%99%D7%99%D7%A7%20%D7%90%D7%A0%D7%93%20%D7%A7%D7%95%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11276/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
+ },
+ {
+  "id": "pralines-yishpro-modiin",
+  "type": "cafe",
+  "name_he": "פרלינים ישפרו",
+  "name_en": "Pralines (Yishpro Center, Modiin)",
+  "lat": 31.882622,
+  "lng": 34.961474,
+  "coords_confidence": "exact (kasher.info pin from the registry listing)",
+  "area": "Modiin area",
+  "kashrut_body": "מחלקת דת מודיעין-מכבים-רעות",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "official",
+  "kashrut_note": "Ministry of Religious Services kashrut registry (via kasher.info): certificate valid until 31.12.2026, Mehadrin.",
+  "dairy_meat": "dairy + parve",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A4%D7%A8%D7%9C%D7%99%D7%A0%D7%99%D7%9D%20%D7%99%D7%A9%D7%A4%D7%A8%D7%95%20Modiin%20area",
+  "source_urls": [
+   "https://kasher.info/b/11277/"
+  ],
+  "last_checked": "2026-11-27",
+  "my_notes": "",
+  "visited": false
  }
 ]
