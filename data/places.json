@@ -6428,6 +6428,478 @@
       "details_source": "Hiking the Holyland post (2020-07-17)",
       "details_status": "blog_post",
       "post_date": "2020-07-17"
+    },
+    {
+      "id": "cafe-rimon-beit-shemesh",
+      "type": "cafe",
+      "name_he": "קפה רימון בית שמש",
+      "name_en": "Cafe Rimon (Big Fashion, Beit Shemesh)",
+      "lat": 31.75634,
+      "lng": 34.98991,
+      "coords_confidence": "approx (OSM: Big Fashion mall)",
+      "area": "Beit Shemesh",
+      "kashrut_body": "הרב מחפוד (Badatz Yoreh Deah – Rabbi Machpud)",
+      "kashrut_level": "badatz",
+      "kashrut_status": "owner_stated",
+      "kashrut_note": "Own site: 'כשר חלבי בהשגחת הרב מחפוד'. Certificate not seen.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "08:30-22:30",
+          "mon": "08:30-22:30",
+          "tue": "08:30-22:30",
+          "wed": "08:30-22:30",
+          "thu": "08:30-22:30",
+          "fri": "08:00-14:00",
+          "sat": "Motzei Shabbat: 1 hr after Shabbat – 23:30"
+        },
+        "status": "owner_stated",
+        "notes": "Own website."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": "https://www.caferimon.co.il/BeitShemesh",
+      "phone": "02-9955591",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%A8%D7%99%D7%9E%D7%95%D7%9F%20%D7%91%D7%99%D7%92%20%D7%A4%D7%90%D7%A9%D7%9F%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.caferimon.co.il/BeitShemesh",
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Yigal Alon 3, Big Fashion mall. Sit-down dairy café.",
+      "visited": false
+    },
+    {
+      "id": "cafe-greg-beit-shemesh",
+      "type": "cafe",
+      "name_he": "קפה גרג בית שמש",
+      "name_en": "Cafe Greg (Beit Shemesh)",
+      "lat": 31.75634,
+      "lng": 34.98991,
+      "coords_confidence": "approx (OSM: Big Fashion mall; GoKosher gives Yigal Alon 1)",
+      "area": "Beit Shemesh",
+      "kashrut_body": "רבנות בית שמש (Rabbanut Beit Shemesh)",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "third_party",
+      "kashrut_note": "GoKosher's Beit Shemesh mehadrin list (updated 10 May 2026) gives 'רבש\"מ' (Rabbanut Beit Shemesh). Certificate not seen.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-5401964",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%92%D7%A8%D7%92%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "aroma-big-fashion-beit-shemesh",
+      "type": "cafe",
+      "name_he": "ארומה ביג פאשן בית שמש",
+      "name_en": "Aroma (Big Fashion, Beit Shemesh)",
+      "lat": 31.75634,
+      "lng": 34.98991,
+      "coords_confidence": "approx (OSM: Big Fashion mall)",
+      "area": "Beit Shemesh",
+      "kashrut_body": "רבנות בית שמש (Rabbanut Beit Shemesh)",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "third_party",
+      "kashrut_note": "GoKosher's Beit Shemesh mehadrin list (updated 10 May 2026) gives 'רבש\"מ' (Rabbanut Beit Shemesh). Certificate not seen.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-9921674",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%90%D7%A8%D7%95%D7%9E%D7%94%20%D7%91%D7%99%D7%92%20%D7%A4%D7%90%D7%A9%D7%9F%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "cofix-bar-beit-shemesh",
+      "type": "cafe",
+      "name_he": "קופיקס בר בית שמש",
+      "name_en": "Cofix Bar (Yitzhak Rabin, Beit Shemesh)",
+      "lat": 31.74825,
+      "lng": 34.99525,
+      "coords_confidence": "approx (OSM: Yitzhak Rabin St.)",
+      "area": "Beit Shemesh",
+      "kashrut_body": "רבנות בית שמש per GoKosher; another directory says Badatz Beit Yosef",
+      "kashrut_level": "unconfirmed",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רבש\"מ'; GoKosher.com listing says Badatz Beit Yosef. Check the certificate.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "07:00-21:00",
+          "mon": "07:00-21:00",
+          "tue": "07:00-21:00",
+          "wed": "07:00-21:00",
+          "thu": "07:00-21:00",
+          "fri": "07:00-14:00",
+          "sat": "closed"
+        },
+        "status": "third_party",
+        "notes": "Per a directory listing."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-5871880",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%95%D7%A4%D7%99%D7%A7%D7%A1%20%D7%91%D7%A8%20%D7%99%D7%A6%D7%97%D7%A7%20%D7%A8%D7%91%D7%99%D7%9F%202%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/",
+        "https://www.gokosher.com/en/f92927"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Yitzhak Rabin 2.",
+      "visited": false
+    },
+    {
+      "id": "holy-bagel-rbs",
+      "type": "cafe",
+      "name_he": "הולי בייגל רמת בית שמש",
+      "name_en": "Holy Bagel (Nahal Dolev, RBS)",
+      "lat": 31.71523,
+      "lng": 34.99677,
+      "coords_confidence": "approx (OSM: Nahal Dolev St., RBS A)",
+      "area": "Ramat Bet Shemesh",
+      "kashrut_body": "Badatz Rubin per GoKosher; another directory says Beit Shemesh religious council",
+      "kashrut_level": "unconfirmed",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רובין' (Badatz Rubin); israel.com lists the Beit Shemesh religious council. Check the certificate.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-9993121",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%94%D7%95%D7%9C%D7%99%20%D7%91%D7%99%D7%99%D7%92%D7%9C%20%D7%A0%D7%97%D7%9C%20%D7%93%D7%95%D7%9C%D7%91%2019%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/",
+        "https://www.israel.com/businesses/beit-shemesh/cafes/holy-bagel-rbs"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Nahal Dolev 19 – closest café to home.",
+      "visited": false
+    },
+    {
+      "id": "waffle-bar-beit-shemesh",
+      "type": "cafe",
+      "name_he": "וופל בר שערי העיר",
+      "name_en": "Waffle Bar (Shaarei HaIr mall, Beit Shemesh)",
+      "lat": 31.7562,
+      "lng": 34.98575,
+      "coords_confidence": "approx (OSM: Shaarei HaIr mall bus stop)",
+      "area": "Beit Shemesh",
+      "kashrut_body": "רבנות בית שמש per GoKosher; another guide says Beit Din Beit Yosef",
+      "kashrut_level": "unconfirmed",
+      "kashrut_status": "third_party",
+      "kashrut_note": "Sources disagree: GoKosher (May 2026) 'רבש\"מ'; another guide lists Beit Din Beit Yosef. Check the certificate.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-9401410",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%95%D7%95%D7%A4%D7%9C%20%D7%91%D7%A8%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%A9%D7%A2%D7%A8%20%D7%94%D7%A2%D7%99%D7%A8%20%D7%91%D7%99%D7%AA%20%D7%A9%D7%9E%D7%A9",
+      "source_urls": [
+        "https://www.gokosher.co.il/mehadrin-restaurants-beit-shemesh/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
+    },
+    {
+      "id": "drive-cafe-shoresh",
+      "type": "food_truck",
+      "name_he": "דרייב קפה מחלף שורש",
+      "name_en": "Drive Cafe (Shoresh interchange)",
+      "lat": 31.80029,
+      "lng": 35.07551,
+      "coords_confidence": "approx (OSM: Shoresh interchange)",
+      "area": "Jerusalem hills / Mateh Yehuda",
+      "kashrut_body": "רבנות מטה יהודה (Rabbanut Mateh Yehuda), meat and dairy trucks",
+      "kashrut_level": "rabbanut_regular",
+      "kashrut_status": "owner_stated",
+      "kashrut_note": "Own site: 'כשרים (בהשגחת רבנות מטה יהודה, בשרי וחלבי)'. Mehadrin not stated. Certificate not seen.",
+      "dairy_meat": "both (coffee & taboon pizza dairy; hot dogs/asado meat)",
+      "hours": {
+        "by_day": {
+          "sun": "05:00-23:00",
+          "mon": "05:00-23:00",
+          "tue": "05:00-23:00",
+          "wed": "05:00-23:00",
+          "thu": "05:00-23:00",
+          "fri": "06:00-15:00",
+          "sat": null
+        },
+        "status": "third_party",
+        "notes": "Hours from a search snippet of the site; the site's page didn't show them when read. Opens very early."
+      },
+      "seasonal_notes": "",
+      "instagram": "https://www.instagram.com/drive_cafe/",
+      "website": "https://drivecafe.co.il/",
+      "phone": null,
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%93%D7%A8%D7%99%D7%99%D7%91%20%D7%A7%D7%A4%D7%94%20%D7%9E%D7%97%D7%9C%D7%A3%20%D7%A9%D7%95%D7%A8%D7%A9",
+      "source_urls": [
+        "https://drivecafe.co.il/",
+        "https://drivecafe.co.il/foodtruck"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "A separate business from Mashav Food Trucks, ~200 m away.",
+      "visited": false
+    },
+    {
+      "id": "cafe-greg-gush-etzion",
+      "type": "cafe",
+      "name_he": "קפה גרג גוש עציון",
+      "name_en": "Cafe Greg (Harim mall, Gush Etzion junction)",
+      "lat": 31.64421,
+      "lng": 35.13026,
+      "coords_confidence": "approx (Harim mall – Etzion Tourism pin of a neighbouring shop)",
+      "area": "Gush Etzion",
+      "kashrut_body": "Rabbanut Gush Etzion",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "official",
+      "kashrut_note": "Etzion Tourism: 'מהדרין גוש עציון'.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "08:00-23:00",
+          "mon": "08:00-23:00",
+          "tue": "08:00-23:00",
+          "wed": "08:00-23:00",
+          "thu": "08:00-23:00",
+          "fri": "08:00-14:00",
+          "sat": "closed"
+        },
+        "status": "official",
+        "notes": "Etzion Tourism listing."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-6642223",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A4%D7%94%20%D7%92%D7%A8%D7%92%20%D7%A7%D7%A0%D7%99%D7%95%D7%9F%20%D7%94%D7%A8%D7%99%D7%9D%20%D7%92%D7%95%D7%A9%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://etziontour.org.il/item/%D7%A7%D7%A4%D7%94-%D7%92%D7%A8%D7%92/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Balcony with a view; kids' menu.",
+      "visited": false
+    },
+    {
+      "id": "katzefet-gush-etzion",
+      "type": "cafe",
+      "name_he": "קצפת גוש עציון",
+      "name_en": "Katzefet ice cream (Kfar Etzion)",
+      "lat": 31.65477,
+      "lng": 35.1176,
+      "coords_confidence": "exact (Etzion Tourism pin)",
+      "area": "Gush Etzion",
+      "kashrut_body": "חתם סופר, חלב ישראל (Chatam Sofer, Chalav Yisrael)",
+      "kashrut_level": "other",
+      "kashrut_status": "official",
+      "kashrut_note": "Etzion Tourism: 'חלב ישראל, חתם סופר'.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": null,
+          "mon": null,
+          "tue": null,
+          "wed": null,
+          "thu": null,
+          "fri": null,
+          "sat": null
+        },
+        "status": "unconfirmed",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-9935359",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A7%D7%A6%D7%A4%D7%AA%20%D7%9B%D7%A4%D7%A8%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://etziontour.org.il/item/%D7%A7%D7%A6%D7%A4%D7%AA-%D7%92%D7%95%D7%A9-%D7%A2%D7%A6%D7%99%D7%95%D7%9F/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Ice cream, frozen yogurt, waffles. End of the Path of the Patriarchs.",
+      "visited": false
+    },
+    {
+      "id": "gush-etzion-winery-restaurant",
+      "type": "restaurant",
+      "name_he": "מסעדת היקב - יקבי גוש עציון",
+      "name_en": "Gush Etzion Winery restaurant",
+      "lat": 31.64829,
+      "lng": 35.12988,
+      "coords_confidence": "exact (Etzion Tourism pin)",
+      "area": "Gush Etzion",
+      "kashrut_body": "not stated",
+      "kashrut_level": "unconfirmed",
+      "kashrut_status": "official",
+      "kashrut_note": "Etzion Tourism: 'חלבית כשרה למהדרין' – the certifying body isn't named.",
+      "dairy_meat": "dairy",
+      "hours": {
+        "by_day": {
+          "sun": "10:00-22:00",
+          "mon": "10:00-22:00",
+          "tue": "10:00-22:00",
+          "wed": "10:00-22:00",
+          "thu": "10:00-22:00",
+          "fri": "09:00-13:00",
+          "sat": "closed"
+        },
+        "status": "official",
+        "notes": "Restaurant hours per Etzion Tourism."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": null,
+      "phone": "02-9309220",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%99%D7%A7%D7%91%D7%99%20%D7%92%D7%95%D7%A9%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://etziontour.org.il/item/%D7%99%D7%A7%D7%91%D7%99-%D7%92%D7%95%D7%A9-%D7%A2%D7%A6%D7%99%D7%95%D7%9F/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Dairy chef restaurant at the Gush junction.",
+      "visited": false
+    },
+    {
+      "id": "hummus-haaretz-kfar-etzion",
+      "type": "restaurant",
+      "name_he": "חומוס הארץ",
+      "name_en": "Hummus HaAretz (Kfar Etzion)",
+      "lat": 31.65344,
+      "lng": 35.11705,
+      "coords_confidence": "exact (Etzion Tourism pin)",
+      "area": "Gush Etzion",
+      "kashrut_body": "Rabbanut Gush Etzion",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "official",
+      "kashrut_note": "Etzion Tourism: 'מהדרין גוש עציון'.",
+      "dairy_meat": "unconfirmed",
+      "hours": {
+        "by_day": {
+          "sun": "10:00-20:00",
+          "mon": "10:00-20:00",
+          "tue": "10:00-20:00",
+          "wed": "10:00-20:00",
+          "thu": "10:00-20:00",
+          "fri": "08:30-14:00",
+          "sat": "closed"
+        },
+        "status": "official",
+        "notes": "The listing also gives 10:00-21:00 / Fri 8:00-13:00 in another spot."
+      },
+      "seasonal_notes": "",
+      "instagram": null,
+      "website": "http://www.humushaaretz.com",
+      "phone": "02-9935366",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%97%D7%95%D7%9E%D7%95%D7%A1%20%D7%94%D7%90%D7%A8%D7%A5%20%D7%9B%D7%A4%D7%A8%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://etziontour.org.il/item/%D7%97%D7%95%D7%9E%D7%95%D7%A1-%D7%94%D7%90%D7%A8%D7%A5/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "Kfar Etzion commercial centre; balcony with a view.",
+      "visited": false
+    },
+    {
+      "id": "shalom-falafel-kfar-etzion",
+      "type": "restaurant",
+      "name_he": "שלום פלאפל",
+      "name_en": "Shalom Falafel (Kfar Etzion)",
+      "lat": 31.65464,
+      "lng": 35.11739,
+      "coords_confidence": "approx (Hatzar HaKfar compound – Etzion Tourism pin of a neighbouring shop)",
+      "area": "Gush Etzion",
+      "kashrut_body": "Rabbanut Gush Etzion",
+      "kashrut_level": "rabbanut_mehadrin",
+      "kashrut_status": "official",
+      "kashrut_note": "Etzion Tourism: 'רבנות מהדרין גוש עציון'.",
+      "dairy_meat": "unconfirmed",
+      "hours": {
+        "by_day": {
+          "sun": "11:00-20:30",
+          "mon": "11:00-20:30",
+          "tue": "11:00-20:30",
+          "wed": "11:00-20:30",
+          "thu": "11:00-20:30",
+          "fri": "10:30-13:30 (winter) / 10:30-14:30 (summer)",
+          "sat": "closed"
+        },
+        "status": "official",
+        "notes": ""
+      },
+      "seasonal_notes": "",
+      "instagram": "https://www.instagram.com/shalom_falafel_kfaretzion",
+      "website": null,
+      "phone": "050-6076562",
+      "google_maps_url": "https://www.google.com/maps/search/?api=1&query=%D7%A9%D7%9C%D7%95%D7%9D%20%D7%A4%D7%9C%D7%90%D7%A4%D7%9C%20%D7%9B%D7%A4%D7%A8%20%D7%A2%D7%A6%D7%99%D7%95%D7%9F",
+      "source_urls": [
+        "https://etziontour.org.il/item/%D7%A9%D7%9C%D7%95%D7%9D-%D7%A4%D7%9C%D7%90%D7%A4%D7%9C/"
+      ],
+      "last_checked": "2026-11-27",
+      "my_notes": "",
+      "visited": false
     }
   ]
 }

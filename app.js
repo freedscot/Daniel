@@ -8,7 +8,7 @@
       appName: "Coffee & Tiyul", search: "Search places", qAll: "All", qFood: "☕ Coffee & food", qHike: "🥾 Hikes",
       qFri: "Open Fri morning", qNear: "📍 Near me", tabList: "List", tabFilters: "Filters",
       count: n => `${n} places`, none: "Nothing matches these filters.",
-      fType: "Type", cart: "Coffee cart", cafe: "Café", food_truck: "Food truck", hike: "Hike",
+      fType: "Type", cart: "Coffee cart", cafe: "Café", food_truck: "Food truck", restaurant: "Restaurant", hike: "Hike",
       fArea: "Area", anyArea: "All areas", fKosher: "Kashrut level", badatz: "Badatz", rabbanut_mehadrin: "Rabbanut Mehadrin",
       rabbanut_regular: "Rabbanut (regular)", other: "Other hashgacha", unconfirmed: "Unconfirmed",
       onlyConfirmed: "Only hechsher stated by the business or an official source",
@@ -40,7 +40,7 @@
       appName: "טיול וקפה", search: "חיפוש", qAll: "הכל", qFood: "☕ קפה ואוכל", qHike: "🥾 טיולים",
       qFri: "פתוח שישי בבוקר", qNear: "📍 קרוב אליי", tabList: "רשימה", tabFilters: "סינון",
       count: n => `${n} מקומות`, none: "אין תוצאות לסינון הזה.",
-      fType: "סוג", cart: "עגלת קפה", cafe: "בית קפה", food_truck: "פודטראק", hike: "מסלול",
+      fType: "סוג", cart: "עגלת קפה", cafe: "בית קפה", food_truck: "פודטראק", restaurant: "מסעדה", hike: "מסלול",
       fArea: "אזור", anyArea: "כל האזורים", fKosher: "רמת כשרות", badatz: "בד\"ץ", rabbanut_mehadrin: "רבנות מהדרין",
       rabbanut_regular: "רבנות", other: "השגחה אחרת", unconfirmed: "לא מאומת",
       onlyConfirmed: "רק כשרות שהעסק או מקור רשמי ציינו",
@@ -70,8 +70,8 @@
     },
   };
   const DAYKEYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
-  const FOOD = ["cart", "cafe", "food_truck"];
-  const ICON = { cart: "☕", cafe: "🥐", food_truck: "🚚", hike: "🥾" };
+  const FOOD = ["cart", "cafe", "food_truck", "restaurant"];
+  const ICON = { cart: "☕", cafe: "🥐", food_truck: "🚚", restaurant: "🍽️", hike: "🥾" };
   const WINDOWS = { morning: [480, 660], midday: [660, 840], afternoon: [840, 1020], evening: [1020, 1260] };
   const HOME = { lat: 31.711, lng: 34.987 };
 
@@ -299,7 +299,7 @@
       .concat(T[S.lang].days.map((d, i) => `<option value="${i}"${f.day === String(i) ? " selected" : ""}>${esc(d)}</option>`)).join("");
     const timeOpts = ["", "morning", "midday", "afternoon", "evening"].map(k => `<option value="${k}"${f.time === k ? " selected" : ""}>${t(k || "anyTime")}</option>`).join("");
     $("#filters").innerHTML = `
-      <div class="fgroup"><h4>${t("fType")}</h4><div class="opts">${["cart", "cafe", "food_truck", "hike"].map(x => opt("types", x, `${ICON[x]} ${t(x)}`, f.types.includes(x))).join("")}</div></div>
+      <div class="fgroup"><h4>${t("fType")}</h4><div class="opts">${["cart", "cafe", "food_truck", "restaurant", "hike"].map(x => opt("types", x, `${ICON[x]} ${t(x)}`, f.types.includes(x))).join("")}</div></div>
       <div class="fgroup"><h4>${t("fArea")}</h4><select data-s="area"><option value="">${t("anyArea")}</option>${areas.map(a => `<option${f.area === a ? " selected" : ""}>${esc(a)}</option>`).join("")}</select></div>
       <div class="fgroup"><h4>${t("fOpen")}</h4><div class="row2"><select data-s="day">${dayOpts}</select><select data-s="time">${timeOpts}</select></div></div>
       <div class="fgroup"><h4>${t("fKosher")}</h4><div class="opts">${["badatz", "rabbanut_mehadrin", "rabbanut_regular", "other", "unconfirmed"].map(x => opt("levels", x, t(x), f.levels.includes(x))).join("")}</div>
@@ -320,7 +320,7 @@
 
   // ---------- quick chips ----------
   function syncQuick() {
-    const f = S.f, food = f.types.length === 3 && FOOD.every(x => f.types.includes(x));
+    const f = S.f, food = f.types.length === FOOD.length && FOOD.every(x => f.types.includes(x));
     const map = { all: !f.types.length && f.day === "", food: food && f.day === "", hike: f.types.length === 1 && f.types[0] === "hike",
       frimorning: f.day === "5" && f.time === "morning" };
     document.querySelectorAll("[data-quick]").forEach(b => b.classList.toggle("on", !!map[b.dataset.quick]));
