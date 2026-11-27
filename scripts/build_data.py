@@ -416,6 +416,11 @@ import sys as _sys; _sys.path.insert(0, str(pathlib.Path(__file__).resolve().par
 import hith_import as _hith
 _hith.apply(PLACES, place, hike, hours)
 
+# Places added later from Instagram links (scripts/add_place.py writes these; reviewed by hand).
+for _e in json.loads((ROOT / "data/sources/added_places.json").read_text(encoding="utf-8")):
+    assert _e["id"] not in {p["id"] for p in PLACES}, f"duplicate id {_e['id']}"
+    PLACES.append(hike(**_e) if _e.get("type") == "hike" else place(**_e))
+
 def main():
     (ROOT / "data").mkdir(exist_ok=True)
     out = {"generated": CHECKED, "home_base": {"name": "Ramat Bet Shemesh", "lat": 31.7110, "lng": 34.9870},

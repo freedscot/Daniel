@@ -46,6 +46,19 @@
 
   <section id="detail" class="detail hidden" aria-live="polite"></section>
 
+  <dialog id="suggest">
+    <form method="dialog" id="suggestForm">
+      <h3 data-t="sgTitle">Suggest a place</h3>
+      <p class="note" data-t="sgHelp">Paste an Instagram (or any) link. It opens a ready-made request on GitHub – tap Submit there, and Claude researches and adds it.</p>
+      <label><span data-t="sgLink">Link</span><input id="sgLink" type="url" required placeholder="https://www.instagram.com/…"></label>
+      <label><span data-t="sgNotes">Notes (optional)</span><textarea id="sgNotes"></textarea></label>
+      <div class="actions">
+        <button class="btn" value="cancel" formnovalidate data-t="sgCancel">Cancel</button>
+        <button class="btn primary" id="sgSend" value="send" data-t="sgSend">Continue to GitHub</button>
+      </div>
+    </form>
+  </dialog>
+
   <script src="vendor/leaflet/leaflet.js"></script>
   <script src="vendor/googlemutant/Leaflet.GoogleMutant.js"></script>
   <script src="config.js"></script>
