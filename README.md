@@ -25,6 +25,7 @@ A phone-friendly map of kosher coffee carts, food trucks and hikes near Ramat Be
 Every place has a `last_checked` date.
 
 **`kashrut_status` / `hours.status`** tell you who said it:
+- `certificate_seen`: you photographed the certificate (photos in `data/sources/certificates/`; `kashrut_valid_until` holds the expiry).
 - `owner_stated`: the business says it, on its own website or in an owner-verified CoffeeTrail listing. Nobody has seen the certificate in person yet.
 - `official`: from the Nature & Parks Authority, KKL or a regional tourism authority.
 - `third_party`: from a guide site, an article or a social post. Treat as unconfirmed.

@@ -1783,11 +1783,11 @@
   "lng": 34.944377,
   "coords_confidence": "approx (Tsafririm village centre – the Google link had no pin)",
   "area": "Emek HaEla",
-  "kashrut_body": "not stated",
-  "kashrut_level": "unconfirmed",
-  "kashrut_status": "unconfirmed",
-  "kashrut_note": "New farm café you visited on 27 Nov 2026. Nothing online confirms a hechsher yet (not on CoffeeTrail, the kosher registry or web search). Add what you saw on the certificate.",
-  "dairy_meat": "unconfirmed",
+  "kashrut_body": "רבנות מטה יהודה – מחלקת הכשרות (Rabbanut Mateh Yehuda, Rabbi Gad Atias)",
+  "kashrut_level": "rabbanut_mehadrin",
+  "kashrut_status": "certificate_seen",
+  "kashrut_note": "Certificate photographed by you (28 Nov 2026): 'תעודת הכשר למהדרין – כשר למהדרין חלבי'. Valid 26.08.2026–29.01.2027 (י\"ג אלול תשפ\"ו – כ\"א שבט תשפ\"ז). Conditions: בישול ישראל כדעת הבית יוסף; חומרי גלם בד\"צים; ירק מפוקח ללא חשש חרקים. Mashgiach: Gadiel Alon 054-7304249. Owner/manager: Yaakov Golan.",
+  "dairy_meat": "dairy",
   "hours": {
    "by_day": {
     "sun": null,
@@ -1807,10 +1807,12 @@
   "google_maps_url": "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7",
   "source_urls": [
    "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7",
+   "data/sources/certificates/chava-baela-2026-08.jpg",
    "https://github.com/freedscot/Daniel/issues/1"
   ],
   "last_checked": "2026-11-28",
   "my_notes": "Found by you on Google Maps; you went on 27 Nov 2026. Pin is the village centre – Google's link had no exact pin.",
-  "visited": true
+  "visited": true,
+  "kashrut_valid_until": "2027-01-29"
  }
 ]

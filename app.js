@@ -23,7 +23,7 @@
       openNow: "Open now", closedNow: "Closed now", closedToday: "Closed today", hoursUnknown: "Hours unknown", unconfShort: "unconfirmed",
       kosherBy: "Hechsher", body: "Certified by", level: "Level", status: "Source", lastChecked: "Last checked",
       st_owner_stated: "Stated by the business", st_official: "Official listing", st_third_party: "Third-party only – unconfirmed",
-      st_unconfirmed: "Unconfirmed", st_user_reported: "Your own report", st_blog_post: "Hiking the Holyland post", "st_n/a": "—",
+      st_unconfirmed: "Unconfirmed", st_user_reported: "Your own report", st_certificate_seen: "Certificate seen (your photo)", validUntil: "Certificate valid until", st_blog_post: "Hiking the Holyland post", "st_n/a": "—",
       hours: "Hours", hoursNote: "Always check before you go.", gmaps: "Google Maps", waze: "Waze", call: "Call", insta: "Instagram", web: "Website",
       dairyMeat: "Dairy/meat", pairings: "Coffee & food within ~15 min", nearbyHikes: "Hikes within ~15 min", findingPairs: "Checking drive times…",
       noPairs: "No kosher stop within 15 minutes' drive.", approxDrive: "approx. – drive times unavailable",
@@ -55,7 +55,7 @@
       openNow: "פתוח עכשיו", closedNow: "סגור עכשיו", closedToday: "סגור היום", hoursUnknown: "שעות לא ידועות", unconfShort: "לא מאומת",
       kosherBy: "כשרות", body: "גוף משגיח", level: "רמה", status: "מקור", lastChecked: "נבדק לאחרונה",
       st_owner_stated: "לפי בעל העסק", st_official: "מקור רשמי", st_third_party: "מקור משני בלבד – לא מאומת",
-      st_unconfirmed: "לא מאומת", st_user_reported: "הדיווח שלך", st_blog_post: "פוסט ב-Hiking the Holyland", "st_n/a": "—",
+      st_unconfirmed: "לא מאומת", st_user_reported: "הדיווח שלך", st_certificate_seen: "תעודה נראתה (הצילום שלך)", validUntil: "תוקף התעודה עד", st_blog_post: "פוסט ב-Hiking the Holyland", "st_n/a": "—",
       hours: "שעות פתיחה", hoursNote: "כדאי לבדוק לפני שיוצאים.", gmaps: "גוגל מפות", waze: "וייז", call: "התקשרות", insta: "אינסטגרם", web: "אתר",
       dairyMeat: "חלבי/בשרי", pairings: "קפה ואוכל עד ~15 דק׳ נסיעה", nearbyHikes: "מסלולים עד ~15 דק׳ נסיעה", findingPairs: "בודק זמני נסיעה…",
       noPairs: "אין עצירה כשרה במרחק 15 דקות נסיעה.", approxDrive: "בקירוב – זמני נסיעה לא זמינים",
@@ -95,7 +95,7 @@
   const isFood = p => FOOD.includes(p.type);
   const name = p => (S.lang === "he" ? p.name_he || p.name_en : p.name_en || p.name_he);
   const altName = p => (S.lang === "he" ? p.name_en : p.name_he);
-  const kosherOk = p => ["owner_stated", "official"].includes(p.kashrut_status);
+  const kosherOk = p => ["certificate_seen", "owner_stated", "official"].includes(p.kashrut_status);
   const mine = p => S.mine[p.id] || {};
   const visited = p => (mine(p).visited ?? p.visited) === true;
 
@@ -385,7 +385,7 @@
     const kosher = food ? `<div class="box"><h4>${t("kosherBy")}</h4><dl class="kv">
         ${row("body", p.kashrut_body)}${row("level", t(p.kashrut_level || "unconfirmed"))}
         <dt>${t("status")}</dt><dd><span class="badge ${kosherOk(p) ? "ok" : "warn"}">${esc(t("st_" + p.kashrut_status))}</span></dd>
-        ${row("dairyMeat", p.dairy_meat)}${row("lastChecked", p.last_checked)}</dl>
+        ${row("validUntil", p.kashrut_valid_until)}${row("dairyMeat", p.dairy_meat)}${row("lastChecked", p.last_checked)}</dl>
         ${p.kashrut_note ? `<p class="note">${esc(p.kashrut_note)}</p>` : ""}</div>` : "";
     const hours = food || p.hours?.status === "official" ? `<div class="box"><h4>${t("hours")} ${os ? `<span class="badge ${os.cls}">${esc(os.txt)}</span>` : ""}</h4>
         ${hoursTable(p)}<p class="note">${t("status")}: ${esc(t("st_" + (p.hours?.status || "unconfirmed")))} · ${t("lastChecked")}: ${esc(p.last_checked)}. ${p.hours?.notes ? esc(p.hours.notes) + " " : ""}${t("hoursNote")}</p></div>` : "";
@@ -411,7 +411,7 @@
       <div class="box"><h4>${t("myNotes")}</h4>
         <label class="toggle"><input type="checkbox" id="visitedBox"${visited(p) ? " checked" : ""}> ${t("visited")}</label>
         <textarea id="myNote">${esc(m.note ?? "")}</textarea></div>
-      <div class="box sources"><h4>${t("sources")}</h4>${(p.source_urls || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(decodeURI(u))}</a>`).join("")}
+      <div class="box sources"><h4>${t("sources")}</h4>${(p.source_urls || []).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(/^data\//.test(u) ? "📄 " + u.split("/").pop() : decodeURI(u))}</a>`).join("")}
         <p class="note">${t("coords")}: ${c.lat.toFixed(5)}, ${c.lng.toFixed(5)} — ${esc(p.coords_confidence || "")}</p></div>`;
     $("#detail").classList.remove("hidden"); $("#detail").scrollTop = 0;
     $("#closeDetail").onclick = closeDetail;
