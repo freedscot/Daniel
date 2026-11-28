@@ -5,7 +5,7 @@
   // ---------- i18n ----------
   const T = {
     en: {
-      appName: "Coffee & Tiyul", search: "Search places", qAll: "All", qFood: "☕ Coffee & food", qHike: "🥾 Hikes",
+      appName: "Coffee & Tiyul", search: "Search places or towns", qAll: "All", qFood: "☕ Coffee & food", qHike: "🥾 Hikes",
       qFri: "Open Fri morning", qNear: "📍 Near me", tabList: "List", tabFilters: "Filters",
       count: n => `${n} places`, none: "Nothing matches these filters.",
       fType: "Type", cart: "Coffee cart", cafe: "Café", food_truck: "Food truck", restaurant: "Restaurant", hike: "Hike",
@@ -34,10 +34,10 @@
       km: "km", min: "min", hrs: "hrs", fromYou: "from you", back: "Close",
       locErr: "Couldn't get your location. Check location permission for this site.",
       sgTitle: "Suggest a place", sgHelp: "Know a kosher café, coffee cart or hike that's missing? Paste a Google Maps or Instagram link and send it on WhatsApp.", sgLink: "Link", sgNotes: "Notes (optional)", sgCancel: "Cancel", sgSend: "or open a GitHub request (map author)", sgWhatsApp: "Send on WhatsApp", aboutOk: "Got it", sgBtn: "➕ Suggest a place",
-      closedDay: "Closed", free: "Free", paid: "Paid entry", yes: "Yes", no: "No",
+      goTo: q => `Go to “${q}” on the map`, notFound: q => `Couldn’t find “${q}” on the map.`, closedDay: "Closed", free: "Free", paid: "Paid entry", yes: "Yes", no: "No",
     },
     he: {
-      appName: "טיול וקפה", search: "חיפוש", qAll: "הכל", qFood: "☕ קפה ואוכל", qHike: "🥾 טיולים",
+      appName: "טיול וקפה", search: "חיפוש מקום או יישוב", qAll: "הכל", qFood: "☕ קפה ואוכל", qHike: "🥾 טיולים",
       qFri: "פתוח שישי בבוקר", qNear: "📍 קרוב אליי", tabList: "רשימה", tabFilters: "סינון",
       count: n => `${n} מקומות`, none: "אין תוצאות לסינון הזה.",
       fType: "סוג", cart: "עגלת קפה", cafe: "בית קפה", food_truck: "פודטראק", restaurant: "מסעדה", hike: "מסלול",
@@ -66,7 +66,7 @@
       km: "ק\"מ", min: "דק׳", hrs: "שע׳", fromYou: "ממך", back: "סגירה",
       locErr: "לא הצלחתי לקבל מיקום. בדקו הרשאת מיקום לאתר.",
       sgTitle: "הצעת מקום", sgHelp: "מכירים בית קפה, עגלת קפה או מסלול כשר שחסר? הדביקו קישור מגוגל מפות או מאינסטגרם ושלחו בוואטסאפ.", sgLink: "קישור", sgNotes: "הערות (לא חובה)", sgCancel: "ביטול", sgSend: "או פתיחת בקשה ב-GitHub (ליוצר המפה)", sgWhatsApp: "שליחה בוואטסאפ", aboutOk: "הבנתי", sgBtn: "➕ הצעת מקום",
-      closedDay: "סגור", free: "חינם", paid: "בתשלום", yes: "כן", no: "לא",
+      goTo: q => `מעבר ל”${q}” במפה`, notFound: q => `לא נמצא ”${q}” במפה.`, closedDay: "סגור", free: "חינם", paid: "בתשלום", yes: "כן", no: "לא",
     },
   };
   const DAYKEYS = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
@@ -207,6 +207,10 @@
   function initMap() {
     map = L.map("map", { zoomControl: false }).setView([31.73, 35.04], 10);
     L.control.zoom({ position: "bottomright" }).addTo(map);
+    const Locate = L.Control.extend({ onAdd() {
+      const b = L.DomUtil.create("button", "locate-btn"); b.type = "button"; b.title = "My location"; b.setAttribute("aria-label", "My location"); b.textContent = "◎";
+      L.DomEvent.on(b, "click", e => { L.DomEvent.stop(e); locate(); }); return b; } });
+    new Locate({ position: "bottomright" }).addTo(map);
     const osm = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
     });
@@ -277,8 +281,9 @@
   function renderList(list) {
     $("#count").textContent = t("count")(list.length);
     const sg = `<button type="button" class="btn suggest-btn" data-suggest>${t("sgBtn")}</button>`;
-    if (!list.length) { $("#list").innerHTML = `<p class="empty">${t("none")}</p>` + sg; return; }
-    $("#list").innerHTML = list.map(p => {
+    const go = S.q.length >= 2 ? `<button type="button" class="btn goto-btn" data-goto>📍 ${esc(t("goTo")(S.q))}</button>` : "";
+    if (!list.length) { $("#list").innerHTML = go + `<p class="empty">${t("none")}</p>` + sg; return; }
+    $("#list").innerHTML = go + list.map(p => {
       const os = openState(p);
       return `<button class="card" type="button" data-id="${esc(p.id)}">
         <span class="ico ${isFood(p) ? "food" : "hike"}">${ICON[p.type] || ""}</span>
@@ -355,6 +360,25 @@
       const d = await driveTimes(S.me, near);
       if (d) { S.drive = d; render(); }
     }, () => alert(t("locErr")), { enableHighAccuracy: true, timeout: 12000, maximumAge: 300000 });
+  }
+
+  // ---------- jump the map to a town / address (OpenStreetMap search; one request per search) ----------
+  let goMarker;
+  async function goToPlace(q) {
+    const own = S.places.filter(matches);
+    if (own.length === 1) return openDetail(own[0].id); // exactly one of our places matches – open it
+    try {
+      const u = "https://nominatim.openstreetmap.org/search?" + new URLSearchParams({ q, format: "json", limit: "1", countrycodes: "il",
+        viewbox: "34.6,31.4,35.5,32.1", "accept-language": S.lang });
+      const r = await (await fetch(u)).json();
+      if (!r.length) return alert(t("notFound")(q));
+      const ll = [+r[0].lat, +r[0].lon];
+      if (goMarker) goMarker.remove();
+      goMarker = L.circleMarker(ll, { radius: 9, color: "#2a7de1", weight: 3, fillOpacity: .15, interactive: false }).addTo(map);
+      map.setView(ll, 13);
+      S.q = ""; $("#search").value = ""; render(); // show all places around the new spot
+      const sh = $("#sheet"); if (window.innerWidth < 900) { sh.classList.remove("full", "half"); sh.classList.add("peek"); }
+    } catch { alert(t("notFound")(q)); }
   }
 
   // ---------- detail ----------
@@ -525,6 +549,8 @@
   function bind() {
     $("#langBtn").onclick = () => { S.lang = S.lang === "he" ? "en" : "he"; store.set("lang", S.lang); applyLang(); renderFilters(); render(); if (S.selected) openDetail(S.selected); };
     $("#search").oninput = e => { S.q = e.target.value.trim(); render(); };
+    $("#search").onkeydown = e => { if (e.key === "Enter" && S.q) { e.preventDefault(); goToPlace(S.q); e.target.blur(); } };
+    document.addEventListener("click", e => { if (e.target.closest("[data-goto]")) goToPlace(S.q); });
     $("#nearBtn").onclick = locate;
     $("#aboutBtn").onclick = openAbout;
     document.querySelectorAll("[data-quick]").forEach(b => b.onclick = () => setFilter(f => {
