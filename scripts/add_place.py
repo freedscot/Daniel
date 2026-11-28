@@ -63,6 +63,19 @@ def resolve_gmaps(link):
     else:
         m = re.search(r"@(-?\d+\.\d+),(-?\d+\.\d+)", url)          # map centre
         if m: lat, lng, how = float(m.group(1)), float(m.group(2)), "approx (Google Maps view centre)"
+    if lat is None and name and "," in name:   # e.g. "חווה באלה, Tsafririm" – fall back to the village centre
+        import time, subprocess as sp
+        town = name.split(",")[-1].strip().strip("\u200e\u200f\u202a\u202b\u202c\u202d")
+        from urllib.parse import urlencode
+        out = sp.run(["curl", "-s", "--max-time", "20", "-A", "kosher-map-data-builder/0.1",
+                      "https://nominatim.openstreetmap.org/search?" + urlencode(dict(q=town, format="json", limit=1, countrycodes="il"))],
+                     capture_output=True, text=True).stdout
+        try:
+            r = json.loads(out)
+            if r: lat, lng, how = float(r[0]["lat"]), float(r[0]["lon"]), f"approx ({town} village centre – the Google link had no pin)"
+        except ValueError:
+            pass
+        name = name.split(",")[0].strip()
     q = parse_qs(urlparse(url).query)
     if not name and q.get("q"):
         v = q["q"][0]; mm = re.fullmatch(r"\s*(-?\d+\.\d+),\s*(-?\d+\.\d+)\s*", v)

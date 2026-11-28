@@ -1773,5 +1773,43 @@
   "source_urls": [
    "https://coffeetrail.co.il/coffeecart/jerusalem/"
   ]
+ },
+ {
+  "id": "chava-baela-farm-caf-tzafririm",
+  "type": "cafe",
+  "name_he": "חווה באלה",
+  "name_en": "Chava BaEla farm café (Tzafririm)",
+  "lat": 31.660045,
+  "lng": 34.944377,
+  "coords_confidence": "approx (Tsafririm village centre – the Google link had no pin)",
+  "area": "Shfela",
+  "kashrut_body": "not stated",
+  "kashrut_level": "unconfirmed",
+  "kashrut_status": "unconfirmed",
+  "kashrut_note": "Added from a Google Maps link; hechsher not yet researched.",
+  "dairy_meat": "unconfirmed",
+  "hours": {
+   "by_day": {
+    "sun": null,
+    "mon": null,
+    "tue": null,
+    "wed": null,
+    "thu": null,
+    "fri": null,
+    "sat": null
+   },
+   "status": "unconfirmed",
+   "notes": ""
+  },
+  "instagram": null,
+  "website": null,
+  "phone": null,
+  "google_maps_url": "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7",
+  "source_urls": [
+   "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7"
+  ],
+  "last_checked": "2026-11-28",
+  "my_notes": "Added from a Google Maps link.",
+  "visited": false
  }
 ]
