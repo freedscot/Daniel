@@ -63,7 +63,7 @@ place(id="mamo-machsiya", type="cart", name_he="מאמו מחסיה", name_en="M
       hours=hours("08:00-20:00", "08:00-13:00", status=OWNER, notes="Own site header + contact page (Nov 2026). Waze: 'MAMO food truck'."),
       website="https://mamoplace.co.il/", phone="055-4558248",
       source_urls=["https://mamoplace.co.il/", "https://mamoplace.co.il/contact/"],
-      my_notes="Own site: 5 min drive from Beit Shemesh."),
+      my_notes="5 min drive from Beit Shemesh (own site)."),
 place(id="mamo-tzur-hadassah", type="cart", name_he="מאמו צור הדסה (פארק יובל)", name_en="MAM'O Coffee Cart (Tzur Hadassah, Yuval Park)",
       lat=31.7152, lng=35.0989, coords_confidence="approx (town centre)", area="Jerusalem hills",
       **kosher("Rabbanut Mateh Yehuda", "rabbanut_mehadrin", OWNER, "Own site states the MAM'O hechsher for the brand; not branch-specific."),
@@ -333,7 +333,7 @@ hike(id="soreq-cave", name_he="שמורת טבע מערת הנטיפים", name_
                  notes="WINTER: last entry 15:00 (Fri 14:00). Summer: site open until 17:00 (Fri 16:00). Adult 31 NIS, child 16 NIS. Booking recommended."),
      website=INPA+"%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%9E%D7%A2%D7%A8%D7%AA-%D7%94%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%9D/",
      source_urls=[INPA+"%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%9E%D7%A2%D7%A8%D7%AA-%D7%94%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%9D/"],
-     my_notes="Cave visit, not a hike. ~10 min from RBS."),
+     my_notes="Cave visit, not a hike. ~10 min from Beit Shemesh."),
 hike(id="beit-guvrin", name_he="גן לאומי בית גוברין", name_en="Beit Guvrin–Maresha National Park (caves)",
      lat=31.59533, lng=34.90248, coords_confidence="exact (OpenStreetMap: park area)", area="Shfela / Lachish",
      length_km=3, duration_hrs=3, difficulty="easy", loop=True, water_spring=False,
@@ -423,7 +423,7 @@ for _e in json.loads((ROOT / "data/sources/added_places.json").read_text(encodin
 
 def main():
     (ROOT / "data").mkdir(exist_ok=True)
-    out = {"generated": CHECKED, "home_base": {"name": "Ramat Bet Shemesh", "lat": 31.7110, "lng": 34.9870},
+    out = {"generated": CHECKED, 
            "places": PLACES}
     (ROOT / "data/places.json").write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 

@@ -1,13 +1,15 @@
 # Kosher Hike + Coffee Map (Israel)
 
-A phone-friendly map of kosher coffee carts, food trucks and hikes near Ramat Bet Shemesh. It's a static site with no server: open `index.html` through any web server, or host it on GitHub Pages.
+A phone-friendly, shareable map of kosher coffee carts, cafés, food trucks and hikes around the Jerusalem hills, Beit Shemesh, the Elah Valley, Gush Etzion and Modiin. It's a static site with no server: open `index.html` through any web server, or host it on GitHub Pages.
 
 ## The app
 - `index.html`, `app.js`, `styles.css`: the app. It reads `data/places.json`.
 - Map: Leaflet + OpenStreetMap (bundled in `vendor/leaflet`, no API key needed).
 - Drive times ("Near me" and the hike pairings) come from the free public OSRM router. If that's unavailable, the app shows straight-line distances labelled "approx.".
 - Tapping Google Maps opens the place in the Google Maps app (food spots are searched by name so you see reviews and photos). Waze opens navigation to the pin.
-- "I've been here" and personal notes are saved on the phone itself (browser storage), not in the data file.
+- "I've been here" and personal notes are saved on each phone only (browser storage), never in the public data.
+- The ℹ️ About screen (shown once on first visit) explains the sources, the kashrut levels and the disclaimer.
+- "➕ Suggest a place" opens WhatsApp with the suggestion typed out (the sender picks the contact; set `suggestWhatsApp` in `config.js` to send straight to one number). The GitHub-request option is still there for the map author.
 - `manifest.webmanifest`, `sw.js`, `icons/`: make it installable ("Add to Home screen") and usable offline. Map areas you've already viewed are cached.
 
 ## Adding a place from Google Maps or Instagram

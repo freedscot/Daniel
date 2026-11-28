@@ -1,10 +1,5 @@
 {
   "generated": "2026-11-26",
-  "home_base": {
-    "name": "Ramat Bet Shemesh",
-    "lat": 31.711,
-    "lng": 34.987
-  },
   "places": [
     {
       "id": "mamo-machsiya",
@@ -43,7 +38,7 @@
         "https://mamoplace.co.il/contact/"
       ],
       "last_checked": "2026-11-26",
-      "my_notes": "Own site: 5 min drive from Beit Shemesh.",
+      "my_notes": "5 min drive from Beit Shemesh (own site).",
       "visited": false
     },
     {
@@ -1496,7 +1491,7 @@
         "https://www.parks.org.il/reserve-park/%D7%A9%D7%9E%D7%95%D7%A8%D7%AA-%D7%98%D7%91%D7%A2-%D7%9E%D7%A2%D7%A8%D7%AA-%D7%94%D7%A0%D7%98%D7%99%D7%A4%D7%99%D7%9D/"
       ],
       "last_checked": "2026-11-26",
-      "my_notes": "Cave visit, not a hike. ~10 min from RBS.",
+      "my_notes": "Cave visit, not a hike. ~10 min from Beit Shemesh.",
       "visited": false,
       "length_km": 0.5,
       "duration_hrs": 1,
@@ -6482,7 +6477,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גרג בית קפה', Yigal Alon 1. GoKosher lists it as Rabbanut Beit Shemesh Mehadrin.",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גרג בית קפה', Yigal Alon 1. GoKosher lists it as Rabbanut Beit Shemesh Mehadrin.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6522,7 +6517,7 @@
       "kashrut_body": "חתם סופר פתח תקווה + רבנות (possibly Mehadrin)",
       "kashrut_level": "other",
       "kashrut_status": "user_reported",
-      "kashrut_note": "Your own report (27 Nov 2026): Chatam Sofer Petach Tikva and the Rabbanut, maybe Mehadrin. GoKosher listed Rabbanut Beit Shemesh. Not on the council's list (only Aroma's roastery is).",
+      "kashrut_note": "Reported by the map's author (27 Nov 2026): Chatam Sofer Petach Tikva and the Rabbanut, maybe Mehadrin. GoKosher listed Rabbanut Beit Shemesh. Not on the council's list (only Aroma's roastery is).",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6561,7 +6556,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס בר', dairy + parve. (A GoKosher.com listing says Badatz Beit Yosef.)",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס בר', dairy + parve. (A GoKosher.com listing says Badatz Beit Yosef.)",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6602,7 +6597,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'הולי בייגל', dairy, Nahal Dolev 19. GoKosher (May 2026) lists Badatz Rubin – check the certificate on site.",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'הולי בייגל', dairy, Nahal Dolev 19. GoKosher (May 2026) lists Badatz Rubin – check the certificate on site.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6628,7 +6623,7 @@
         "https://www.israel.com/businesses/beit-shemesh/cafes/holy-bagel-rbs"
       ],
       "last_checked": "2026-11-27",
-      "my_notes": "Nahal Dolev 19 – closest café to home.",
+      "my_notes": "Nahal Dolev 19, Ramat Bet Shemesh A.",
       "visited": false
     },
     {
@@ -6643,7 +6638,7 @@
       "kashrut_body": "בד\"ץ רובין (Badatz Rubin)",
       "kashrut_level": "badatz",
       "kashrut_status": "user_reported",
-      "kashrut_note": "Your own report (27 Nov 2026): Badatz Rubin. Not on the Beit Shemesh council list. Earlier directories said Rabbanut Beit Shemesh / Beit Yosef.",
+      "kashrut_note": "Reported by the map's author (27 Nov 2026): Badatz Rubin. Not on the Beit Shemesh council list. Earlier directories said Rabbanut Beit Shemesh / Beit Yosef.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6917,7 +6912,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס רמת בית שמש א'', dairy + parve, Nahal Nitzanim.",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'קופיקס רמת בית שמש א'', dairy + parve, Nahal Nitzanim.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6956,7 +6951,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'וקס קפה', dairy + parve, Naimi mall.",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'וקס קפה', dairy + parve, Naimi mall.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -6995,7 +6990,7 @@
       "kashrut_body": "המועצה הדתית בית שמש (Beit Shemesh religious council)",
       "kashrut_level": "rabbanut_regular",
       "kashrut_status": "official",
-      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (page saved by you, 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גלידה גולדה', dairy + parve, Big Fashion.",
+      "kashrut_note": "Official Beit Shemesh religious council list of supervised businesses (checked 27 Nov 2026). The list doesn't say whether it's Mehadrin. Listed as 'גלידה גולדה', dairy + parve, Big Fashion.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -8243,7 +8238,7 @@
       "kashrut_body": "רבנות מטה יהודה – מחלקת הכשרות (Rabbanut Mateh Yehuda, Rabbi Gad Atias)",
       "kashrut_level": "rabbanut_mehadrin",
       "kashrut_status": "certificate_seen",
-      "kashrut_note": "Certificate photographed by you (28 Nov 2026): 'תעודת הכשר למהדרין – כשר למהדרין חלבי'. Valid 26.08.2026–29.01.2027 (י\"ג אלול תשפ\"ו – כ\"א שבט תשפ\"ז). Conditions: בישול ישראל כדעת הבית יוסף; חומרי גלם בד\"צים; ירק מפוקח ללא חשש חרקים. Mashgiach: Gadiel Alon 054-7304249. Owner/manager: Yaakov Golan.",
+      "kashrut_note": "Certificate photographed on site (28 Nov 2026): 'תעודת הכשר למהדרין – כשר למהדרין חלבי'. Valid 26.08.2026–29.01.2027 (י\"ג אלול תשפ\"ו – כ\"א שבט תשפ\"ז). Conditions: בישול ישראל כדעת הבית יוסף; חומרי גלם בד\"צים; ירק מפוקח ללא חשש חרקים. Mashgiach: Gadiel Alon 054-7304249. Owner/manager: Yaakov Golan.",
       "dairy_meat": "dairy",
       "hours": {
         "by_day": {
@@ -8269,8 +8264,8 @@
         "https://github.com/freedscot/Daniel/issues/1"
       ],
       "last_checked": "2026-11-28",
-      "my_notes": "Found by you on Google Maps; you went on 27 Nov 2026. Pin is the village centre – Google's link had no exact pin.",
-      "visited": true,
+      "my_notes": "New farm café (2026). The pin is the village centre – use the Google Maps button for the exact spot.",
+      "visited": false,
       "kashrut_valid_until": "2027-01-29"
     }
   ]

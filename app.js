@@ -23,7 +23,7 @@
       openNow: "Open now", closedNow: "Closed now", closedToday: "Closed today", hoursUnknown: "Hours unknown", unconfShort: "unconfirmed",
       kosherBy: "Hechsher", body: "Certified by", level: "Level", status: "Source", lastChecked: "Last checked",
       st_owner_stated: "Stated by the business", st_official: "Official listing", st_third_party: "Third-party only – unconfirmed",
-      st_unconfirmed: "Unconfirmed", st_user_reported: "Your own report", st_certificate_seen: "Certificate seen (your photo)", validUntil: "Certificate valid until", st_blog_post: "Hiking the Holyland post", "st_n/a": "—",
+      st_unconfirmed: "Unconfirmed", st_user_reported: "Reported by the map's author", st_certificate_seen: "Certificate photographed on site", validUntil: "Certificate valid until", st_blog_post: "Hiking the Holyland post", "st_n/a": "—",
       hours: "Hours", hoursNote: "Always check before you go.", gmaps: "Google Maps", waze: "Waze", call: "Call", insta: "Instagram", web: "Website",
       dairyMeat: "Dairy/meat", pairings: "Coffee & food within ~15 min", nearbyHikes: "Hikes within ~15 min", findingPairs: "Checking drive times…",
       noPairs: "No kosher stop within 15 minutes' drive.", approxDrive: "approx. – drive times unavailable",
@@ -31,9 +31,9 @@
       waterSpring: "Water", pool: "Pools", shade: "Shade", season: "Best season", kidsL: "Kids", strollerL: "Stroller",
       parking: "Parking", fee: "Entrance fee", warnings: "Know before you go", details: "Details from",
       coords: "Map pin", notes: "Notes", myNotes: "My notes (saved on this phone)", visited: "I've been here", sources: "Sources",
-      km: "km", min: "min", hrs: "hrs", fromHome: "from Ramat Bet Shemesh", fromYou: "from you", back: "Close",
+      km: "km", min: "min", hrs: "hrs", fromYou: "from you", back: "Close",
       locErr: "Couldn't get your location. Check location permission for this site.",
-      sgTitle: "Suggest a place", sgHelp: "Paste a Google Maps or Instagram link (or share straight from Google Maps / Instagram). It opens a ready-made request on GitHub – tap Submit there, and Claude researches and adds it.", sgLink: "Link", sgNotes: "Notes (optional)", sgCancel: "Cancel", sgSend: "Continue to GitHub", sgBtn: "➕ Suggest a place",
+      sgTitle: "Suggest a place", sgHelp: "Know a kosher café, coffee cart or hike that's missing? Paste a Google Maps or Instagram link and send it on WhatsApp.", sgLink: "Link", sgNotes: "Notes (optional)", sgCancel: "Cancel", sgSend: "or open a GitHub request (map author)", sgWhatsApp: "Send on WhatsApp", aboutOk: "Got it", sgBtn: "➕ Suggest a place",
       closedDay: "Closed", free: "Free", paid: "Paid entry", yes: "Yes", no: "No",
     },
     he: {
@@ -55,7 +55,7 @@
       openNow: "פתוח עכשיו", closedNow: "סגור עכשיו", closedToday: "סגור היום", hoursUnknown: "שעות לא ידועות", unconfShort: "לא מאומת",
       kosherBy: "כשרות", body: "גוף משגיח", level: "רמה", status: "מקור", lastChecked: "נבדק לאחרונה",
       st_owner_stated: "לפי בעל העסק", st_official: "מקור רשמי", st_third_party: "מקור משני בלבד – לא מאומת",
-      st_unconfirmed: "לא מאומת", st_user_reported: "הדיווח שלך", st_certificate_seen: "תעודה נראתה (הצילום שלך)", validUntil: "תוקף התעודה עד", st_blog_post: "פוסט ב-Hiking the Holyland", "st_n/a": "—",
+      st_unconfirmed: "לא מאומת", st_user_reported: "דיווח של יוצר המפה", st_certificate_seen: "התעודה צולמה במקום", validUntil: "תוקף התעודה עד", st_blog_post: "פוסט ב-Hiking the Holyland", "st_n/a": "—",
       hours: "שעות פתיחה", hoursNote: "כדאי לבדוק לפני שיוצאים.", gmaps: "גוגל מפות", waze: "וייז", call: "התקשרות", insta: "אינסטגרם", web: "אתר",
       dairyMeat: "חלבי/בשרי", pairings: "קפה ואוכל עד ~15 דק׳ נסיעה", nearbyHikes: "מסלולים עד ~15 דק׳ נסיעה", findingPairs: "בודק זמני נסיעה…",
       noPairs: "אין עצירה כשרה במרחק 15 דקות נסיעה.", approxDrive: "בקירוב – זמני נסיעה לא זמינים",
@@ -63,9 +63,9 @@
       waterSpring: "מים", pool: "בריכות", shade: "צל", season: "עונה מומלצת", kidsL: "ילדים", strollerL: "עגלה",
       parking: "חניה", fee: "דמי כניסה", warnings: "חשוב לדעת", details: "פרטים מתוך",
       coords: "נעץ במפה", notes: "הערות", myNotes: "ההערות שלי (נשמר בטלפון הזה)", visited: "ביקרתי כאן", sources: "מקורות",
-      km: "ק\"מ", min: "דק׳", hrs: "שע׳", fromHome: "מרמת בית שמש", fromYou: "ממך", back: "סגירה",
+      km: "ק\"מ", min: "דק׳", hrs: "שע׳", fromYou: "ממך", back: "סגירה",
       locErr: "לא הצלחתי לקבל מיקום. בדקו הרשאת מיקום לאתר.",
-      sgTitle: "הצעת מקום", sgHelp: "הדביקו קישור מגוגל מפות או מאינסטגרם (או שתפו ישירות מהם). ייפתח טופס בקשה מוכן ב-GitHub – לחצו Submit שם, ו-Claude יבדוק ויוסיף.", sgLink: "קישור", sgNotes: "הערות (לא חובה)", sgCancel: "ביטול", sgSend: "המשך ל-GitHub", sgBtn: "➕ הצעת מקום",
+      sgTitle: "הצעת מקום", sgHelp: "מכירים בית קפה, עגלת קפה או מסלול כשר שחסר? הדביקו קישור מגוגל מפות או מאינסטגרם ושלחו בוואטסאפ.", sgLink: "קישור", sgNotes: "הערות (לא חובה)", sgCancel: "ביטול", sgSend: "או פתיחת בקשה ב-GitHub (ליוצר המפה)", sgWhatsApp: "שליחה בוואטסאפ", aboutOk: "הבנתי", sgBtn: "➕ הצעת מקום",
       closedDay: "סגור", free: "חינם", paid: "בתשלום", yes: "כן", no: "לא",
     },
   };
@@ -73,7 +73,6 @@
   const FOOD = ["cart", "cafe", "food_truck", "restaurant"];
   const ICON = { cart: "☕", cafe: "🥐", food_truck: "🚚", restaurant: "🍽️", hike: "🥾" };
   const WINDOWS = { morning: [480, 660], midday: [660, 840], afternoon: [840, 1020], evening: [1020, 1260] };
-  const HOME = { lat: 31.711, lng: 34.987 };
 
   // ---------- state ----------
   const store = {
@@ -97,7 +96,7 @@
   const altName = p => (S.lang === "he" ? p.name_en : p.name_he);
   const kosherOk = p => ["certificate_seen", "owner_stated", "official"].includes(p.kashrut_status);
   const mine = p => S.mine[p.id] || {};
-  const visited = p => (mine(p).visited ?? p.visited) === true;
+  const visited = p => mine(p).visited === true;
 
   function km(a, b) {
     const R = 6371, r = Math.PI / 180, dLat = (b.lat - a.lat) * r, dLng = (b.lng - a.lng) * r;
@@ -197,7 +196,7 @@
     if (!food && !f.types.length && (f.levels.length || f.onlyConfirmed || f.dairy)) return false;
     return true;
   }
-  const origin = () => S.me || HOME;
+  const origin = () => S.me || (map ? map.getCenter() : { lat: 31.75, lng: 35.05 });
   function sortKey(p) {
     const d = S.drive[p.id];
     return d ? d.min : km(origin(), pt(p)) * 1.4; // rough minutes when no routing yet
@@ -259,7 +258,7 @@
   function distLabel(p) {
     const d = S.drive[p.id];
     if (d) return `🚗 ${Math.round(d.min)} ${t("min")}`;
-    return `~${km(origin(), pt(p)).toFixed(0)} ${t("km")}`;
+    return S.me ? `~${km(S.me, pt(p)).toFixed(0)} ${t("km")}` : "";
   }
   function kosherBadge(p) {
     if (!isFood(p)) return "";
@@ -448,7 +447,7 @@
     if (d.showModal) d.showModal(); else d.setAttribute("open", "");
   }
   function sendSuggest() {
-    const link = $("#sgLink").value.trim(); if (!link) return;
+    const link = $("#sgLink").value.trim() || $("#sgNotes").value.trim(); if (!link) return;
     const repo = (window.APP_CONFIG || {}).requestRepo || "freedscot/Daniel";
     const handle = (link.match(/instagram\.com\/([A-Za-z0-9_.]+)/) || [])[1];
     const isMaps = /maps\.app\.goo\.gl|goo\.gl\/maps|google\.[a-z.]+\/maps|maps\.google\./i.test(link);
@@ -457,6 +456,13 @@
     const body = `Link: ${link}\n\nNotes: ${$("#sgNotes").value.trim() || "-"}\n\nRequested from the Coffee & Tiyul app on ${new Date().toISOString().slice(0, 10)}.\nClaude: follow .claude/skills/add-place/SKILL.md.`;
     window.open(`https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`, "_blank", "noopener");
   }
+  function sendWhatsApp() {
+    const link = $("#sgLink").value.trim(), notes = $("#sgNotes").value.trim();
+    if (!link && !notes) return;
+    const text = `${S.lang === "he" ? "הצעה למפת טיול וקפה" : "Suggestion for the Coffee & Tiyul map"}:\n${link}${notes ? "\n" + notes : ""}`;
+    const num = ((window.APP_CONFIG || {}).suggestWhatsApp || "").replace(/[^0-9]/g, "");
+    window.open(`https://wa.me/${num}?text=${encodeURIComponent(text)}`, "_blank", "noopener");
+  }
   function handleShare() { // Android "Share → Coffee & Tiyul" lands here with share_* params
     const q = new URLSearchParams(location.search);
     const raw = [q.get("share_url"), q.get("share_text"), q.get("share_title")].filter(Boolean).join(" ");
@@ -464,6 +470,42 @@
     const link = (raw.match(/https?:\/\/\S+/) || [""])[0];
     history.replaceState(null, "", location.pathname);
     openSuggest(link, link ? raw.replace(link, "").trim() : raw);
+  }
+
+  // ---------- about ----------
+  const ABOUT = {
+    en: `<h3>Coffee &amp; Tiyul</h3>
+      <p>A map of kosher coffee carts, cafés and food trucks, and the hikes and springs around them – Jerusalem hills, Beit Shemesh, the Elah Valley, Gush Etzion and the Modiin area. Open a hike to see kosher stops within about 15 minutes' drive, or a café to see the hikes near it.</p>
+      <div class="warnbox"><b>Kashrut:</b> this map shows what each source says about a place's hechsher, with the date it was checked. Certificates change and expire – <b>always check the certificate on site.</b></div>
+      <h4>How sure is each hechsher?</h4>
+      <ul><li><b>Certificate photographed on site</b> – copied from a photo of the certificate, with its expiry date.</li>
+      <li><b>Official listing</b> – Ministry of Religious Services registry, a religious council's list, or a regional tourism authority.</li>
+      <li><b>Stated by the business</b> – its own website or verified listing.</li>
+      <li><b>Third-party only / Reported by the map's author / Unconfirmed</b> – treat as unverified. Pins with a dashed border aren't confirmed.</li></ul>
+      <h4>Where the information comes from</h4>
+      <p>CoffeeTrail, the places' own sites, the kosher registry via kasher.info, Etzion Tourism, the Nature &amp; Parks Authority, KKL, Hiking the Holyland, ModiinApp and GoKosher, plus visits. Thanks to all of them. Maps: Google Maps / © OpenStreetMap contributors. Drive times: OSRM.</p>
+      <h4>Your privacy</h4>
+      <p>"I've been here" and your notes are saved only on your phone. Your location is used only on your phone for "Near me" and drive times (sent to the routing service, not stored).</p>
+      <p>Missing a place or found a mistake? Use <b>➕ Suggest a place</b> at the bottom of the list.</p>`,
+    he: `<h3>טיול וקפה</h3>
+      <p>מפה של עגלות קפה, בתי קפה ופודטראקים כשרים, והמסלולים והמעיינות שסביבם – הרי ירושלים, בית שמש, עמק האלה, גוש עציון ואזור מודיעין. פותחים מסלול ורואים עצירות כשרות עד כ-15 דקות נסיעה, או בית קפה ורואים מסלולים לידו.</p>
+      <div class="warnbox"><b>כשרות:</b> המפה מציגה מה כל מקור אומר על הכשרות של המקום, עם תאריך הבדיקה. תעודות משתנות ופגות – <b>תמיד לבדוק את התעודה במקום.</b></div>
+      <h4>כמה בטוחה כל כשרות?</h4>
+      <ul><li><b>התעודה צולמה במקום</b> – הועתק מצילום התעודה, כולל תוקף.</li>
+      <li><b>מקור רשמי</b> – מאגר המשרד לשירותי דת, רשימת מועצה דתית או רשות תיירות אזורית.</li>
+      <li><b>לפי בעל העסק</b> – האתר שלו או רישום מאומת.</li>
+      <li><b>מקור משני / דיווח של יוצר המפה / לא מאומת</b> – להתייחס כלא מאומת. נעצים עם מסגרת מקווקוות אינם מאומתים.</li></ul>
+      <h4>מקורות המידע</h4>
+      <p>CoffeeTrail, אתרי המקומות עצמם, מאגר הכשרות דרך kasher.info, תיירות גוש עציון, רשות הטבע והגנים, קק"ל, Hiking the Holyland, ModiinApp ו-GoKosher, וגם ביקורים. תודה לכולם. מפות: Google Maps / © OpenStreetMap. זמני נסיעה: OSRM.</p>
+      <h4>פרטיות</h4>
+      <p>"ביקרתי כאן" וההערות שלכם נשמרים רק בטלפון שלכם. המיקום משמש רק בטלפון עבור "קרוב אליי" וזמני נסיעה (נשלח לשירות הניווט, לא נשמר).</p>
+      <p>חסר מקום או מצאתם טעות? <b>➕ הצעת מקום</b> בתחתית הרשימה.</p>`,
+  };
+  function openAbout() {
+    $("#aboutBody").innerHTML = ABOUT[S.lang] || ABOUT.en;
+    const d = $("#about"); if (d.showModal) d.showModal(); else d.setAttribute("open", "");
+    $("#aboutBody").focus({ preventScroll: true }); d.scrollTop = 0;
+    store.set("seenAbout", true);
   }
 
   // ---------- render ----------
@@ -484,6 +526,7 @@
     $("#langBtn").onclick = () => { S.lang = S.lang === "he" ? "en" : "he"; store.set("lang", S.lang); applyLang(); renderFilters(); render(); if (S.selected) openDetail(S.selected); };
     $("#search").oninput = e => { S.q = e.target.value.trim(); render(); };
     $("#nearBtn").onclick = locate;
+    $("#aboutBtn").onclick = openAbout;
     document.querySelectorAll("[data-quick]").forEach(b => b.onclick = () => setFilter(f => {
       const k = b.dataset.quick;
       if (k === "all") Object.assign(f, { types: [], day: "", time: "" });
@@ -521,6 +564,7 @@
     document.addEventListener("click", e => { if (e.target.closest("[data-suggest]")) openSuggest(); });
     $("#suggestForm").addEventListener("submit", e => { // open GitHub inside the tap so it isn't popup-blocked
       if (e.submitter && e.submitter.value === "send") { e.preventDefault(); sendSuggest(); $("#suggest").close(); }
+      if (e.submitter && e.submitter.value === "whatsapp") { e.preventDefault(); sendWhatsApp(); $("#suggest").close(); }
     });
   }
 
@@ -532,6 +576,9 @@
       S.places = (await r.json()).places;
     } catch { $("#list").innerHTML = `<p class="empty">Couldn't load data/places.json</p>`; return; }
     renderFilters(); syncQuick(); render();
+    try { map.fitBounds(L.latLngBounds(S.places.map(p => [p.lat, p.lng])), { padding: [24, 24] }); } catch { /* keep default view */ }
+    let mt; map.on("moveend", () => { if (S.me) return; clearTimeout(mt); mt = setTimeout(() => renderList(S.places.filter(matches).sort((a, b) => sortKey(a) - sortKey(b))), 250); });
+    if (!store.get("seenAbout", false) && !location.search.includes("share_")) openAbout();
     const hash = decodeURIComponent(location.hash.slice(1)); if (hash) openDetail(hash);
     handleShare();
     if ("serviceWorker" in navigator && location.protocol === "https:") navigator.serviceWorker.register("sw.js").catch(() => {});

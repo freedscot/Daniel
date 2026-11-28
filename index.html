@@ -18,6 +18,7 @@
   <header class="topbar">
     <div class="brand"><img src="icons/icon-192.png" alt="" width="28" height="28"><span data-t="appName">Coffee &amp; Tiyul</span></div>
     <input id="search" type="search" autocomplete="off" data-tp="search" placeholder="Search">
+    <button id="aboutBtn" class="iconbtn" type="button" aria-label="About">ℹ️</button>
     <button id="langBtn" class="iconbtn" type="button" aria-label="עברית / English">עב</button>
   </header>
 
@@ -49,13 +50,21 @@
   <dialog id="suggest">
     <form method="dialog" id="suggestForm">
       <h3 data-t="sgTitle">Suggest a place</h3>
-      <p class="note" data-t="sgHelp">Paste a Google Maps or Instagram link (or share straight from Google Maps / Instagram). It opens a ready-made request on GitHub – tap Submit there, and Claude researches and adds it.</p>
-      <label><span data-t="sgLink">Link</span><input id="sgLink" type="url" required placeholder="Google Maps or Instagram link"></label>
+      <p class="note" data-t="sgHelp">Know a kosher café, coffee cart or hike that's missing? Paste a Google Maps or Instagram link and send it on WhatsApp.</p>
+      <label><span data-t="sgLink">Link</span><input id="sgLink" type="url" placeholder="Google Maps or Instagram link"></label>
       <label><span data-t="sgNotes">Notes (optional)</span><textarea id="sgNotes"></textarea></label>
       <div class="actions">
         <button class="btn" value="cancel" formnovalidate data-t="sgCancel">Cancel</button>
-        <button class="btn primary" id="sgSend" value="send" data-t="sgSend">Continue to GitHub</button>
+        <button class="btn primary" id="sgWhatsApp" value="whatsapp" data-t="sgWhatsApp">Send on WhatsApp</button>
       </div>
+      <button class="linkbtn" id="sgSend" value="send" data-t="sgSend">or open a GitHub request (map author)</button>
+    </form>
+  </dialog>
+
+  <dialog id="about">
+    <form method="dialog">
+      <div id="aboutBody" tabindex="-1" autofocus></div>
+      <div class="actions"><button class="btn primary" value="ok" data-t="aboutOk">Got it</button></div>
     </form>
   </dialog>
 

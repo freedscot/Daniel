@@ -1,5 +1,5 @@
 // Offline support: app shell cache-first, place data network-first, map tiles cached as you browse.
-const VERSION = "v8";
+const VERSION = "v9";
 const SHELL = ["./", "index.html", "styles.css", "app.js", "manifest.webmanifest", "vendor/leaflet/leaflet.js",
   "vendor/leaflet/leaflet.css", "vendor/googlemutant/Leaflet.GoogleMutant.js", "config.js", "icons/icon-192.png", "icons/icon-512.png"];
 const TILE_LIMIT = 600;
