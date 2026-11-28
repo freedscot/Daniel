@@ -1775,18 +1775,18 @@
   ]
  },
  {
-  "id": "chava-baela-farm-caf-tzafririm",
+  "id": "chava-baela-tzafririm",
   "type": "cafe",
   "name_he": "חווה באלה",
   "name_en": "Chava BaEla farm café (Tzafririm)",
   "lat": 31.660045,
   "lng": 34.944377,
   "coords_confidence": "approx (Tsafririm village centre – the Google link had no pin)",
-  "area": "Shfela",
+  "area": "Emek HaEla",
   "kashrut_body": "not stated",
   "kashrut_level": "unconfirmed",
   "kashrut_status": "unconfirmed",
-  "kashrut_note": "Added from a Google Maps link; hechsher not yet researched.",
+  "kashrut_note": "New farm café you visited on 27 Nov 2026. Nothing online confirms a hechsher yet (not on CoffeeTrail, the kosher registry or web search). Add what you saw on the certificate.",
   "dairy_meat": "unconfirmed",
   "hours": {
    "by_day": {
@@ -1806,10 +1806,11 @@
   "phone": null,
   "google_maps_url": "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7",
   "source_urls": [
-   "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7"
+   "https://maps.app.goo.gl/mpGsqjUoDFQDwcHM7",
+   "https://github.com/freedscot/Daniel/issues/1"
   ],
   "last_checked": "2026-11-28",
-  "my_notes": "Added from a Google Maps link.",
-  "visited": false
+  "my_notes": "Found by you on Google Maps; you went on 27 Nov 2026. Pin is the village centre – Google's link had no exact pin.",
+  "visited": true
  }
 ]

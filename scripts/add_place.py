@@ -11,7 +11,7 @@
       Appends a draft entry to data/sources/added_places.json, filled from the CoffeeTrail listing
       with the project's kashrut rules. Review/edit the entry, then run: python3 scripts/build_data.py
 """
-import json, math, pathlib, re, sys, datetime
+import json, math, pathlib, re, sys, datetime, unicodedata
 from urllib.parse import quote
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -103,7 +103,7 @@ def draft_gmaps(link, name_en, name_he=None, ptype="cafe"):
     name_he = name_he or name or name_en
     near = min(places(), key=lambda p: km((p["lat"], p["lng"]), (lat, lng)))
     area = near["area"] if km((near["lat"], near["lng"]), (lat, lng)) < 10 else "SET AREA"
-    entry = dict(id=re.sub(r"[^a-z0-9]+", "-", name_en.lower()).strip("-"), type=ptype, name_he=name_he, name_en=name_en,
+    entry = dict(id=re.sub(r"[^a-z0-9]+", "-", unicodedata.normalize("NFKD", name_en).encode("ascii", "ignore").decode().lower()).strip("-"), type=ptype, name_he=name_he, name_en=name_en,
         lat=round(lat, 6), lng=round(lng, 6), coords_confidence=how, area=area,
         kashrut_body="not stated", kashrut_level="unconfirmed", kashrut_status="unconfirmed",
         kashrut_note="Added from a Google Maps link; hechsher not yet researched.", dairy_meat="unconfirmed",
