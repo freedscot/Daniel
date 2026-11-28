@@ -1,6 +1,6 @@
 ---
 name: add-place
-description: Add a kosher coffee cart / café / food truck (or a hike) to the Coffee & Tiyul map from an Instagram link, or process open "Add place:" GitHub issues created by the app's "Suggest a place" button. Use whenever the user pastes an Instagram/Facebook/website link for a place, or asks to process place requests.
+description: Add a kosher coffee cart / café / food truck (or a hike) to the Coffee & Tiyul map from a Google Maps or Instagram link, or process open "Add place:" GitHub issues created by the app's "Suggest a place" button. Use whenever the user pastes an Instagram/Facebook/website link for a place, or asks to process place requests.
 ---
 
 # Add a place from a link
@@ -13,6 +13,12 @@ The owner pastes a link (usually Instagram) and expects you to research the plac
 - `kashrut_status`: `owner_stated` (the business itself: its own site, or an owner-verified CoffeeTrail listing), `official` (regional tourism authority/INPA/KKL), `third_party` (guides, articles, social posts by others), `user_reported` (the owner told you from his own visit/knowledge — record it as he said, with the date), `unconfirmed`. The Ministry of Religious Services registry (shown on kasher.info, with valid-until date) counts as `official`. Same scale for `hours.status`.
 - **Never guess.** Missing hechsher or hours → `unconfirmed`, and set `last_checked` to today.
 - A place open on Shabbat is a red flag: say so in `kashrut_note` and tell the owner; don't present it as kosher without a clear certificate.
+
+## Google Maps links (maps.app.goo.gl/… or google.com/maps/…)
+The owner finds places by browsing Google Maps and shares the link (often with the place name on the first line).
+1. `python3 scripts/add_place.py gmaps "<link>" "<shared text>"` – follows the short link's redirect (it does not load Maps), prints the name and the place's exact pin, anything already on the map within 300 m, and CoffeeTrail listings within 500 m.
+2. If a CoffeeTrail listing matches, use `draft <slug>` (it carries kashrut/hours) and set `google_maps_url` to the owner's link. Otherwise `draft-gmaps "<link>" --name-en "…" --name-he "…" --type cafe` creates an entry with the exact pin and kashrut/hours `unconfirmed`.
+3. Research the hechsher and hours as below (kasher.info town page = Ministry registry; the place's own site; Etzion/Mateh Yehuda tourism; web search for its Instagram). Google reviews/photos aren't readable here – if nothing confirms the hechsher, leave it `unconfirmed` and tell the owner a photo of the certificate settles it.
 
 ## Steps
 1. **Get the handle** from the link (`instagram.com/<handle>`). Instagram itself can't be read (login wall / blocked) — don't try to get around that.

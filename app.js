@@ -33,7 +33,7 @@
       coords: "Map pin", notes: "Notes", myNotes: "My notes (saved on this phone)", visited: "I've been here", sources: "Sources",
       km: "km", min: "min", hrs: "hrs", fromHome: "from Ramat Bet Shemesh", fromYou: "from you", back: "Close",
       locErr: "Couldn't get your location. Check location permission for this site.",
-      sgTitle: "Suggest a place", sgHelp: "Paste an Instagram (or any) link. It opens a ready-made request on GitHub – tap Submit there, and Claude researches and adds it.", sgLink: "Link", sgNotes: "Notes (optional)", sgCancel: "Cancel", sgSend: "Continue to GitHub", sgBtn: "➕ Suggest a place",
+      sgTitle: "Suggest a place", sgHelp: "Paste a Google Maps or Instagram link (or share straight from Google Maps / Instagram). It opens a ready-made request on GitHub – tap Submit there, and Claude researches and adds it.", sgLink: "Link", sgNotes: "Notes (optional)", sgCancel: "Cancel", sgSend: "Continue to GitHub", sgBtn: "➕ Suggest a place",
       closedDay: "Closed", free: "Free", paid: "Paid entry", yes: "Yes", no: "No",
     },
     he: {
@@ -65,7 +65,7 @@
       coords: "נעץ במפה", notes: "הערות", myNotes: "ההערות שלי (נשמר בטלפון הזה)", visited: "ביקרתי כאן", sources: "מקורות",
       km: "ק\"מ", min: "דק׳", hrs: "שע׳", fromHome: "מרמת בית שמש", fromYou: "ממך", back: "סגירה",
       locErr: "לא הצלחתי לקבל מיקום. בדקו הרשאת מיקום לאתר.",
-      sgTitle: "הצעת מקום", sgHelp: "הדביקו קישור לאינסטגרם (או כל קישור). ייפתח טופס בקשה מוכן ב-GitHub – לחצו Submit שם, ו-Claude יבדוק ויוסיף.", sgLink: "קישור", sgNotes: "הערות (לא חובה)", sgCancel: "ביטול", sgSend: "המשך ל-GitHub", sgBtn: "➕ הצעת מקום",
+      sgTitle: "הצעת מקום", sgHelp: "הדביקו קישור מגוגל מפות או מאינסטגרם (או שתפו ישירות מהם). ייפתח טופס בקשה מוכן ב-GitHub – לחצו Submit שם, ו-Claude יבדוק ויוסיף.", sgLink: "קישור", sgNotes: "הערות (לא חובה)", sgCancel: "ביטול", sgSend: "המשך ל-GitHub", sgBtn: "➕ הצעת מקום",
       closedDay: "סגור", free: "חינם", paid: "בתשלום", yes: "כן", no: "לא",
     },
   };
@@ -451,7 +451,9 @@
     const link = $("#sgLink").value.trim(); if (!link) return;
     const repo = (window.APP_CONFIG || {}).requestRepo || "freedscot/Daniel";
     const handle = (link.match(/instagram\.com\/([A-Za-z0-9_.]+)/) || [])[1];
-    const title = `Add place: ${handle ? "@" + handle : link}`;
+    const isMaps = /maps\.app\.goo\.gl|goo\.gl\/maps|google\.[a-z.]+\/maps|maps\.google\./i.test(link);
+    const firstLine = $("#sgNotes").value.trim().split("\n")[0].slice(0, 60);
+    const title = `Add place: ${handle ? "@" + handle : isMaps && firstLine ? firstLine + " (Google Maps)" : link}`;
     const body = `Link: ${link}\n\nNotes: ${$("#sgNotes").value.trim() || "-"}\n\nRequested from the Coffee & Tiyul app on ${new Date().toISOString().slice(0, 10)}.\nClaude: follow .claude/skills/add-place/SKILL.md.`;
     window.open(`https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`, "_blank", "noopener");
   }
